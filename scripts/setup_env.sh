@@ -16,7 +16,7 @@ echo "04. PubMed API ========================================"
 pip install -U biopython
 
 echo "05. LLM API ==========================================="
-pip install -U google-generativeai
+pip install -U google-genai
 
 echo "06. UI ================================================"
 pip install -U streamlit
