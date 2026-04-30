@@ -1,0 +1,171 @@
+hnscc:
+  core: |
+    (
+      "Head and Neck Squamous Cell Carcinoma"[Mesh]
+      OR "head and neck squamous cell carcinoma"[Title/Abstract]
+      OR HNSCC[Title/Abstract]
+      OR "oral squamous cell carcinoma"[Title/Abstract]
+      OR OSCC[Title/Abstract]
+      OR OTSCC[Title/Abstract]
+      OR OPSCC[Title/Abstract]
+      OR LSCC[Title/Abstract]
+      OR "oropharyngeal squamous cell carcinoma"[Title/Abstract]
+      OR "laryngeal squamous cell carcinoma"[Title/Abstract]
+      OR "hypopharyngeal squamous cell carcinoma"[Title/Abstract]
+      OR "HPV-positive head and neck cancer"[Title/Abstract]
+    )
+    AND
+    (
+      biomarker*[Title/Abstract]
+      OR "molecular subtype"[Title/Abstract]
+      OR signature[Title/Abstract]
+      OR "risk model"[Title/Abstract]
+      OR "prognostic model"[Title/Abstract]
+
+      OR prognosis[Title/Abstract]
+      OR survival[Title/Abstract]
+      OR "overall survival"[Title/Abstract]
+      OR "progression-free survival"[Title/Abstract]
+      OR "disease-free survival"[Title/Abstract]
+
+      OR immunotherapy[Title/Abstract]
+      OR "immune checkpoint"[Title/Abstract]
+      OR PD-1[Title/Abstract]
+      OR PD-L1[Title/Abstract]
+
+      OR "targeted therapy"[Title/Abstract]
+      OR cetuximab[Title/Abstract]
+      OR EGFR[Title/Abstract]
+
+      OR "tumor microenvironment"[Title/Abstract]
+      OR TME[Title/Abstract]
+      OR "immune infiltration"[Title/Abstract]
+
+      OR ("HPV" OR "human papillomavirus")[Title/Abstract]
+    )
+    AND 2018:2026[PDAT]
+    AND English[lang]
+    AND hasabstract[text]
+    AND humans[MeSH Terms]
+    NOT (
+      "case reports"[Publication Type]
+      OR editorial[Publication Type]
+      OR letter[Publication Type]
+      OR comment[Publication Type]
+    )
+  omics: |
+    (
+      "Head and Neck Squamous Cell Carcinoma"[Mesh]
+      OR HNSCC[Title/Abstract]
+      OR "oral squamous cell carcinoma"[Title/Abstract]
+      OR OPSCC[Title/Abstract]
+      OR LSCC[Title/Abstract]
+    )
+    AND
+    (
+      "gene expression"[Title/Abstract]
+      OR transcriptomic*[Title/Abstract]
+      OR "RNA-seq"[Title/Abstract]
+      OR "bulk RNA-seq"[Title/Abstract]
+      OR "single-cell"[Title/Abstract]
+      OR "single cell"[Title/Abstract]
+      OR scRNA-seq[Title/Abstract]
+
+      OR genomic*[Title/Abstract]
+      OR "whole genome"[Title/Abstract]
+      OR "whole exome"[Title/Abstract]
+      OR WGS[Title/Abstract]
+      OR WES[Title/Abstract]
+      OR TCGA[Title/Abstract]
+
+      OR mutation*[Title/Abstract]
+      OR variant*[Title/Abstract]
+      OR "somatic mutation"[Title/Abstract]
+
+      OR "copy number"[Title/Abstract]
+      OR CNV[Title/Abstract]
+      OR amplification[Title/Abstract]
+      OR deletion[Title/Abstract]
+
+      OR "DNA methylation"[Title/Abstract]
+      OR epigenetic*[Title/Abstract]
+      OR CpG[Title/Abstract]
+
+      OR proteomic*[Title/Abstract]
+      OR "mass spectrometry"[Title/Abstract]
+
+      OR metabolomic*[Title/Abstract]
+      OR metabolite*[Title/Abstract]
+
+      OR "multi-omics"[Title/Abstract]
+      OR multiomics[Title/Abstract]
+      OR "integrative omics"[Title/Abstract]
+
+      OR "spatial transcriptomic"[Title/Abstract]
+      OR "spatial omics"[Title/Abstract]
+      OR Visium[Title/Abstract]
+
+      OR "liquid biopsy"[Title/Abstract]
+      OR ctDNA[Title/Abstract]
+      OR cfDNA[Title/Abstract]
+
+      OR pharmacogenomic*[Title/Abstract]
+    )
+    AND 2018:2026[PDAT]
+    AND English[lang]
+    AND hasabstract[text]
+    AND humans[MeSH Terms]
+  mechanistic: |
+    (
+      "Head and Neck Squamous Cell Carcinoma"[Mesh]
+      OR HNSCC[Title/Abstract]
+      OR "oral squamous cell carcinoma"[Title/Abstract]
+      OR OPSCC[Title/Abstract]
+      OR LSCC[Title/Abstract]
+    )
+    AND
+    (
+      mechanism*[Title/Abstract]
+      OR "molecular mechanism"[Title/Abstract]
+      OR "signaling pathway"[Title/Abstract]
+      OR pathway*[Title/Abstract]
+      OR "signal transduction"[Title/Abstract]
+
+      OR "gene regulation"[Title/Abstract]
+      OR "transcription factor"[Title/Abstract]
+      OR "gene regulatory network"[Title/Abstract]
+
+      OR "protein interaction"[Title/Abstract]
+      OR "protein-protein interaction"[Title/Abstract]
+
+      OR "histone modification"[Title/Abstract]
+      OR miRNA[Title/Abstract]
+      OR "microRNA"[Title/Abstract]
+      OR lncRNA[Title/Abstract]
+
+      OR PI3K[Title/Abstract]
+      OR AKT[Title/Abstract]
+      OR mTOR[Title/Abstract]
+      OR NOTCH[Title/Abstract]
+      OR TP53[Title/Abstract]
+      OR EGFR[Title/Abstract]
+
+      OR "cell proliferation"[Title/Abstract]
+      OR apoptosis[Title/Abstract]
+      OR "cell cycle"[Title/Abstract]
+      OR EMT[Title/Abstract]
+      OR "epithelial mesenchymal transition"[Title/Abstract]
+      OR invasion[Title/Abstract]
+      OR metastasis[Title/Abstract]
+
+      OR "immune evasion"[Title/Abstract]
+
+      OR knockdown[Title/Abstract]
+      OR overexpression[Title/Abstract]
+      OR CRISPR[Title/Abstract]
+      OR "functional study"[Title/Abstract]
+    )
+    AND 2018:2026[PDAT]
+    AND English[lang]
+    AND hasabstract[text]
+    AND humans[MeSH Terms]
