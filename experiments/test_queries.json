@@ -1,0 +1,122 @@
+[
+  {
+    "id": "Q01",
+    "query": "What is the prognostic significance of HPV status in oropharyngeal squamous cell carcinoma?",
+    "category": "HPV",
+    "expected_topics": ["HPV", "oropharyngeal", "prognosis", "survival"]
+  },
+  {
+    "id": "Q02",
+    "query": "How does PD-L1 expression affect immunotherapy response in head and neck cancer?",
+    "category": "Immunotherapy",
+    "expected_topics": ["PD-L1", "immunotherapy", "checkpoint", "response"]
+  },
+  {
+    "id": "Q03",
+    "query": "What role do tumor-infiltrating lymphocytes play in HNSCC tumor microenvironment?",
+    "category": "TME",
+    "expected_topics": ["tumor microenvironment", "immune infiltration", "TILs"]
+  },
+  {
+    "id": "Q04",
+    "query": "What are the latest developments in EGFR-targeted therapy for HNSCC?",
+    "category": "Targeted therapy",
+    "expected_topics": ["EGFR", "cetuximab", "targeted therapy"]
+  },
+  {
+    "id": "Q05",
+    "query": "How is DNA methylation used as a biomarker for oral squamous cell carcinoma?",
+    "category": "Epigenetics",
+    "expected_topics": ["DNA methylation", "biomarker", "OSCC", "epigenetic"]
+  },
+  {
+    "id": "Q06",
+    "query": "What single-cell RNA sequencing studies have characterized HNSCC heterogeneity?",
+    "category": "Single-cell",
+    "expected_topics": ["single-cell", "scRNA-seq", "heterogeneity"]
+  },
+  {
+    "id": "Q07",
+    "query": "What molecular subtypes have been identified in HNSCC?",
+    "category": "Molecular subtype",
+    "expected_topics": ["molecular subtype", "classification", "transcriptomic"]
+  },
+  {
+    "id": "Q08",
+    "query": "How does HPV-positive HNSCC differ molecularly from HPV-negative HNSCC?",
+    "category": "HPV",
+    "expected_topics": ["HPV-positive", "HPV-negative", "molecular", "comparison"]
+  },
+  {
+    "id": "Q09",
+    "query": "What are common somatic mutations in HNSCC and their clinical implications?",
+    "category": "Mutations",
+    "expected_topics": ["mutation", "somatic", "TP53", "clinical"]
+  },
+  {
+    "id": "Q10",
+    "query": "What prognostic biomarkers have been validated for HNSCC patient stratification?",
+    "category": "Biomarker",
+    "expected_topics": ["prognostic", "biomarker", "stratification", "survival"]
+  },
+  {
+    "id": "Q11",
+    "query": "How effective is pembrolizumab and nivolumab for recurrent or metastatic HNSCC?",
+    "category": "Immunotherapy",
+    "expected_topics": ["pembrolizumab", "nivolumab", "recurrent", "metastatic"]
+  },
+  {
+    "id": "Q12",
+    "query": "What signaling pathways are dysregulated in HNSCC progression?",
+    "category": "Mechanism",
+    "expected_topics": ["signaling pathway", "PI3K", "EGFR", "progression"]
+  },
+  {
+    "id": "Q13",
+    "query": "How does the immune microenvironment differ between HPV+ and HPV- HNSCC?",
+    "category": "TME",
+    "expected_topics": ["immune microenvironment", "HPV", "comparison"]
+  },
+  {
+    "id": "Q14",
+    "query": "What machine learning approaches have been applied to HNSCC outcome prediction?",
+    "category": "ML/AI",
+    "expected_topics": ["machine learning", "deep learning", "prediction"]
+  },
+  {
+    "id": "Q15",
+    "query": "What is the role of TP53 mutations in head and neck cancer prognosis?",
+    "category": "Mutations",
+    "expected_topics": ["TP53", "mutation", "prognosis"]
+  },
+  {
+    "id": "Q16",
+    "query": "How is liquid biopsy or ctDNA used in HNSCC monitoring?",
+    "category": "Liquid biopsy",
+    "expected_topics": ["liquid biopsy", "ctDNA", "circulating tumor DNA"]
+  },
+  {
+    "id": "Q17",
+    "query": "What are the prognostic gene expression signatures developed for HNSCC?",
+    "category": "Transcriptomics",
+    "expected_topics": ["gene expression", "signature", "prognostic", "RNA-seq"]
+  },
+  {
+    "id": "Q18",
+    "query": "What treatment options exist for cetuximab-resistant HNSCC?",
+    "category": "Targeted therapy",
+    "expected_topics": ["cetuximab", "resistance", "treatment"]
+  },
+  {
+    "id": "Q19",
+    "query": "How do immune checkpoint combinations improve HNSCC outcomes?",
+    "category": "Immunotherapy",
+    "expected_topics": ["combination", "checkpoint", "immunotherapy"]
+  },
+  {
+    "id": "Q20",
+    "query": "What is the role of cancer-associated fibroblasts in HNSCC progression?",
+    "category": "TME",
+    "expected_topics": ["cancer-associated fibroblast", "CAF", "stroma"]
+  }
+]
