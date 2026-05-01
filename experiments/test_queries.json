@@ -118,5 +118,40 @@
     "query": "What is the role of cancer-associated fibroblasts in HNSCC progression?",
     "category": "TME",
     "expected_topics": ["cancer-associated fibroblast", "CAF", "stroma"]
+  },
+  {
+    "id": "Q21",
+    "query": "What is the role of BRCA1 mutations in breast cancer treatment?",
+    "category": "out_of_scope",
+    "expected_topics": [],
+    "expected_refusal": true
+  },
+  {
+    "id": "Q22",
+    "query": "How is type 2 diabetes managed with metformin?",
+    "category": "out_of_scope",
+    "expected_topics": [],
+    "expected_refusal": true
+  },
+  {
+    "id": "Q23",
+    "query": "What are the latest developments in Alzheimer's disease drug discovery?",
+    "category": "out_of_scope",
+    "expected_topics": [],
+    "expected_refusal": true
+  },
+  {
+    "id": "Q24",
+    "query": "How does CAR-T cell therapy work for leukemia?",
+    "category": "out_of_scope",
+    "expected_topics": [],
+    "expected_refusal": true
+  },
+  {
+    "id": "Q25",
+    "query": "What is the recommended treatment for hypertension in elderly patients?",
+    "category": "out_of_scope",
+    "expected_topics": [],
+    "expected_refusal": true
   }
 ]

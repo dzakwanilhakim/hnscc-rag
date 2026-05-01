@@ -43,3 +43,10 @@ MAX_TOP_K = 20  # for re-ranking later
 # ============================================================
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+
+# ============================================================
+# Production prompt variant
+# ============================================================
+
+# Selected from Phase 5 evaluation (composite score 0.928)
+DEFAULT_PROMPT_VARIANT = "few_shot"

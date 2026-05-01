@@ -14,7 +14,7 @@ from google.genai import types
 from src.retriever import HNSCCRetriever, RetrievalResult
 from src.prompts import build_prompt
 from src.validators import validate_citations, CitationValidation
-from src.config import LLM_MODEL, GOOGLE_API_KEY, DEFAULT_TOP_K
+from src.config import LLM_MODEL, GOOGLE_API_KEY, DEFAULT_TOP_K, DEFAULT_PROMPT_VARIANT
 
 load_dotenv()
 
@@ -72,7 +72,7 @@ class HNSCCRAGChain:
         model_name: str = LLM_MODEL,
         api_key: Optional[str] = None,
         temperature: float = 0.1,
-        max_output_tokens: int = 1024,
+        max_output_tokens: int = 3000,
     ):
         self.retriever = retriever or HNSCCRetriever()
         self.model_name = model_name
@@ -88,18 +88,32 @@ class HNSCCRAGChain:
     # --------------------------------------------------------
     # LLM call
     # --------------------------------------------------------
-
-    def _call_llm(self, prompt: str) -> str:
-        """Call Gemini and return response text."""
-        response = self.client.models.generate_content(
-            model=self.model_name,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                temperature=self.temperature,
-                max_output_tokens=self.max_output_tokens,
-            ),
-        )
-        return response.text
+    def _call_llm(self, prompt: str, max_retries: int = 3) -> str:
+            """Call Gemini with retry on transient errors."""
+            last_error = None
+            for attempt in range(max_retries):
+                try:
+                    response = self.client.models.generate_content(
+                        model=self.model_name,
+                        contents=prompt,
+                        config=types.GenerateContentConfig(
+                            temperature=self.temperature,
+                            max_output_tokens=self.max_output_tokens,
+                        ),
+                    )
+                    return response.text
+                except Exception as e:
+                    last_error = e
+                    error_str = str(e).lower()
+                    # Retry on transient server errors
+                    if "503" in error_str or "unavailable" in error_str or "internal" in error_str:
+                        wait = 10 * (attempt + 1)
+                        print(f"    Transient error, retrying in {wait}s...")
+                        time.sleep(wait)
+                        continue
+                    # Non-retriable (e.g., 429 quota)
+                    raise
+            raise last_error
 
     # --------------------------------------------------------
     # Public API
@@ -108,7 +122,7 @@ class HNSCCRAGChain:
     def run(
         self,
         question: str,
-        variant: str = "zero_shot",
+        variant: str = DEFAULT_PROMPT_VARIANT,
         k: int = DEFAULT_TOP_K,
     ) -> RAGResponse:
         """

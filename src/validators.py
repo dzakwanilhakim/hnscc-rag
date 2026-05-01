@@ -30,8 +30,7 @@ class CitationValidation:
             f"{self.invalid_pmids}"
         )
 
-
-PMID_PATTERN = re.compile(r"\bPMID[:\s]*(\d{6,9})\b", re.IGNORECASE)
+PMID_PATTERN = re.compile(r"\bPMID[:\s]*(\d{7,9})\b", re.IGNORECASE)
 
 
 def extract_pmids(text: str) -> List[str]:

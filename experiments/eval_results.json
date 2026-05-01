@@ -1,0 +1,2288 @@
+[
+  {
+    "query_id": "Q01",
+    "category": "HPV",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "What is the prognostic significance of HPV status in oropharyngeal squamous cell carcinoma?",
+    "retrieved_pmids": [
+      "39291666",
+      "39397259",
+      "39487900",
+      "34129700",
+      "39293346"
+    ],
+    "response_text": "Human papillomavirus (HPV) status is a significant prognostic factor in oropharyngeal squamous cell carcinoma (OPSCC) [PMID:39291666, PMID:39397259]. HPV-positive OPSCC is associated with better survival outcomes compared to HPV-negative tumors [PMID:39291666, PMID:39487900]. Patients with HPV-positive OPSCC generally have a significantly lower risk of death and better clinical outcomes, including 5-year overall survival [PMID:39291666, PMID:34129700]. HPV infection is an independent prognostic factor for overall survival (OS) and progression-free survival (PFS) in OPSCC patients [PMID:39397259]. The prognostic value of HPV genotypes in OPSCC highlights superior survival outcomes for HPV-positive tumors across all genotypes compared with HPV-negative tumors [PMID:39291666]. HPV status significantly impacts overall survival and disease-free survival regardless of p16 status [PMID:39293346]. Specifically, p16-positive/HPV-positive OPSCC patients exhibit the best survival probability [PMID:39293346]. HPV is considered more prognostic than p16 for OPSCC [PMID:34129700].\n\nReferences\n39291666\n39397259\n39487900\n34129700\n39293346",
+    "cited_pmids": [
+      "39291666",
+      "39397259",
+      "39487900",
+      "34129700",
+      "39293346"
+    ],
+    "valid_pmids": [
+      "39291666",
+      "39397259",
+      "39487900",
+      "34129700",
+      "39293346"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 5.823041915893555,
+    "error": null
+  },
+  {
+    "query_id": "Q01",
+    "category": "HPV",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "What is the prognostic significance of HPV status in oropharyngeal squamous cell carcinoma?",
+    "retrieved_pmids": [
+      "39291666",
+      "39397259",
+      "39487900",
+      "34129700",
+      "39293346"
+    ],
+    "response_text": "Human papillomavirus (HPV) infection is an independent prognostic factor for oropharyngeal squamous cell carcinoma (OPSCC) [PMID:39397259]. HPV-positive OPSCC patients generally exhibit better survival outcomes compared to HPV-negative patients [PMID:39291666, PMID:39397259, PMID:39487900]. Specifically, a significantly lower risk of death has been measured for all HPV-positive tumors compared with HPV-negative tumors, including HPV 16, other high-risk HPV, and low-risk HPV genotypes [PMID:39291666]. HPV-positive patients are also associated with better clinical outcomes, including 5-year overall survival [PMID:34129700].\n\nThe prognostic value of HPV genotypes in OPSCC is significant, with superior survival outcomes observed across all HPV genotypes compared to HPV-negative tumors [PMID:39291666]. Immunoglobulin Heavy Constant Mu (IGHM) mRNA is significantly upregulated in HPV-positive OPSCC and is associated with a better prognosis, potentially contributing to these prognostic differences [PMID:39397259].\n\nWhile p16 immunohistochemistry (IHC) is used as a surrogate marker for HPV status in staging, HPV itself is more prognostic than p16 for OPSCC [PMID:34129700]. The detection of HPV has a significant impact on survival probability for OPSCC patients regardless of p16 status [PMID:39293346]. Patients with p16-positive/HPV-positive OPSCC exhibit the best survival probability [PMID:39293346]. HPV testing, especially HPV RNA ISH, can be adopted for routine analysis and should be integrated into cancer staging alongside p16 evaluation for a comprehensive prognostic assessment [PMID:34129700, PMID:39293346].\n\nReferences:\n- PMID:39291666\n- PMID:39397259\n- PMID:39487900\n- PMID:34129700\n- PMID:39293346",
+    "cited_pmids": [
+      "39397259",
+      "39291666",
+      "39487900",
+      "34129700",
+      "39293346"
+    ],
+    "valid_pmids": [
+      "39397259",
+      "39291666",
+      "39487900",
+      "34129700",
+      "39293346"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 5.990388870239258,
+    "error": null
+  },
+  {
+    "query_id": "Q01",
+    "category": "HPV",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "What is the prognostic significance of HPV status in oropharyngeal squamous cell carcinoma?",
+    "retrieved_pmids": [
+      "39291666",
+      "39397259",
+      "39487900",
+      "34129700",
+      "39293346"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 1 (PMID:39291666):** This abstract directly addresses the prognostic significance of HPV genotypes in oropharyngeal squamous cell carcinoma (OPSCC) and compares survival outcomes of HPV-positive versus HPV-negative tumors.\n*   **Abstract 2 (PMID:39397259):** This abstract investigates the relevance of HPV infection and the prognosis of OPSCC, identifying HPV as an independent prognostic factor for overall survival (OS) and progression-free survival (PFS).\n*   **Abstract 3 (PMID:39487900):** This abstract states that HPV-positive OPSCC is associated with better survival than HPV-negative OPSCC, providing direct evidence for its prognostic significance.\n*   **Abstract 4 (PMID:34129700):** This abstract assesses the prognostic values of p16 and HPV markers for oropharyngeal squamous cell carcinoma (OpSCC), concluding that HPV is more prognostic than p16.\n*   **Abstract 5 (PMID:39293346):** This abstract determines the impact of combined evaluation of p16 and HPV on prognosis in OPSCC, showing that HPV status significantly impacts overall survival and disease-free survival regardless of p16 status.\n\nSTEP 2 \u2014 SYNTHESIS:\nHuman papillomavirus (HPV) status holds significant prognostic value in oropharyngeal squamous cell carcinoma (OPSCC) [PMID:39291666, PMID:39397259]. HPV-positive OPSCC is associated with better survival outcomes compared to HPV-negative OPSCC [PMID:39291666, PMID:39397259, PMID:39487900]. A significantly lower risk of death has been measured for all HPV-positive genotypes, including HPV 16, other high-risk HPV, and low-risk HPV, when compared with HPV-negative tumors [PMID:39291666]. HPV is an independent prognostic factor for overall survival (OS) and progression-free survival (PFS) in OPSCC patients [PMID:39397259]. The prognostic value of HPV is superior to that of p16 for OPSCC [PMID:34129700]. HPV status significantly impacts overall survival and disease-free survival regardless of p16 status [PMID:39293346]. Among both p16-positive and p16-negative groups, HPV-positive patients exhibit better clinical outcomes, particularly 5-year overall survival [PMID:34129700]. Specifically, p16-positive/HPV-positive OPSCC patients show the best survival probability [PMID:39293346]. Detailed HPV subtype analysis can inform better treatment decisions and support de-intensification strategies for patients with low-risk genotypes [PMID:39291666]. Immunoglobulin Heavy Constant Mu (IGHM) mRNA is significantly upregulated in HPV-positive OPSCC and its expression is associated with a better prognosis [PMID:39397259]. HPV testing should be integrated into cancer staging alongside p16 evaluation to ensure a comprehensive assessment of prognosis [PMID:39293346].\n\nSTEP 3 \u2014 REFERENCES:\nPMID:39291666\nPMID:39397259\nPMID:39487900\nPMID:34129700\nPMID:39293346",
+    "cited_pmids": [
+      "39291666",
+      "39397259",
+      "39487900",
+      "34129700",
+      "39293346"
+    ],
+    "valid_pmids": [
+      "39291666",
+      "39397259",
+      "39487900",
+      "34129700",
+      "39293346"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 7.939436912536621,
+    "error": null
+  },
+  {
+    "query_id": "Q02",
+    "category": "Immunotherapy",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "How does PD-L1 expression affect immunotherapy response in head and neck cancer?",
+    "retrieved_pmids": [
+      "33753620",
+      "38729036",
+      "36499710",
+      "39376042",
+      "37207445"
+    ],
+    "response_text": "PD-L1 expression can serve as a predictive marker for identifying head and neck squamous cell carcinoma (HNSCC) patients eligible for targeted immunotherapy [PMID:33753620, PMID:39376042]. Patients with positive PD-L1 expression, particularly those with high expression, experienced improved overall survival when treated with PD-1 or PD-L1 inhibitors [PMID:38729036]. However, PD-L1 expression did not significantly affect progression-free survival in HNSCC patients undergoing immunotherapy [PMID:38729036].\n\nReferences\nPMID:33753620\nPMID:38729036\nPMID:39376042",
+    "cited_pmids": [
+      "33753620",
+      "39376042",
+      "38729036"
+    ],
+    "valid_pmids": [
+      "33753620",
+      "39376042",
+      "38729036"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 7.850910902023315,
+    "error": null
+  },
+  {
+    "query_id": "Q02",
+    "category": "Immunotherapy",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "How does PD-L1 expression affect immunotherapy response in head and neck cancer?",
+    "retrieved_pmids": [
+      "33753620",
+      "38729036",
+      "36499710",
+      "39376042",
+      "37207445"
+    ],
+    "response_text": "PD-L1 expression is considered a potential predictor of clinical response and enables patient selection for immunotherapy in head and neck squamous cell carcinoma (HNSCC) [PMID:33753620]. Patients with positive PD-L1 expression, especially those with high expression, experienced improved overall survival when treated with PD-1 or PD-L1 inhibitors [PMID:38729036]. This suggests that PD-L1 expression can be a predictive marker for better overall survival in HNSCC patients treated with immunotherapy [PMID:38729036]. However, PD-L1 expression did not significantly affect progression-free survival [PMID:38729036]. In tobacco-associated oral squamous cell carcinoma, while PD-L1 expression is proposed as a predictive biomarker for selecting immunotherapy candidates, it did not show a significant association with overall survival, and patients with positive PD-L1 expression showed a poorer survival rate [PMID:39376042].\n\nReferences:\n- PMID:33753620\n- PMID:38729036\n- PMID:39376042",
+    "cited_pmids": [
+      "33753620",
+      "38729036",
+      "39376042"
+    ],
+    "valid_pmids": [
+      "33753620",
+      "38729036",
+      "39376042"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 9.325488567352295,
+    "error": null
+  },
+  {
+    "query_id": "Q02",
+    "category": "Immunotherapy",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "How does PD-L1 expression affect immunotherapy response in head and neck cancer?",
+    "retrieved_pmids": [
+      "33753620",
+      "38729036",
+      "36499710",
+      "39376042",
+      "37207445"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 1 (PMID:33753620):** This abstract is relevant as it discusses PD-L1 expression detection by IHC, its role in immune evasion, and its potential as a predictor of clinical response and for patient selection for immunotherapy in HNSCC.\n*   **Abstract 2 (PMID:38729036):** This abstract is highly relevant as it directly investigates the predictive role of PD-L1 expression in patient response to PD-1 or PD-L1 inhibitors, specifically its impact on overall survival and progression-free survival in HNSCC patients.\n*   **Abstract 3 (PMID:36499710):** This abstract is relevant as it discusses the PD-1-PD-L1 axis in the context of immunotherapy for HNSCC, mentioning the search for treatment response biomarkers and the superiority of immunotherapy over traditional chemotherapy in certain HNSCC settings.\n*   **Abstract 4 (PMID:39376042):** This abstract is relevant as it proposes PD-L1 expression as a predictive biomarker for selecting immunotherapy candidates in HNSCC, specifically oral squamous cell carcinoma (OSCC).\n*   **Abstract 5 (PMID:37207445):** This abstract is relevant as it discusses the efficacy of immune checkpoint inhibitors (ICIs) in HNSCC, the role of PD-L1 expression in immune escape, and how studying PD-1/PD-L1 pathways helps identify advantageous populations for immunotherapy and prolongs survival in recurrent/metastatic HNSCC.\n\nSTEP 2 \u2014 SYNTHESIS:\nPD-L1 expression plays a significant role in the response to immunotherapy in head and neck squamous cell carcinoma (HNSCC). Programmed death-ligand 1 (PD-L1) expressed by tumor cells interacts with the PD-1 receptor on T lymphocytes, leading to immune evasive responses and providing a survival advantage [PMID:33753620]. Therapy with immune checkpoint inhibitors targets this PD-1/PD-L1 blockade, which can induce tumor regression [PMID:33753620].\n\nImmunohistochemistry (IHC) for PD-L1 expression enables the identification of HNSCC patients eligible for targeted immunotherapy and may be considered a potential predictor of clinical response [PMID:33753620]. The immunohistochemical expression of PD-L1 in cancer cells has been proposed as a predictive biomarker for selecting candidates for immunotherapy [PMID:39376042].\n\nPatients with positive PD-L1 expression, particularly those with high PD-L1 expression, experienced improved overall survival when treated with PD-1 or PD-L1 inhibitors [PMID:38729036]. These findings suggest that PD-L1 expression can be a predictive marker for better overall survival in HNSCC patients treated with immunotherapy [PMID:38729036]. PD-1 inhibitors have demonstrated significant prolongation of survival in recurrent/metastatic HNSCC [PMID:37207445]. However, PD-L1 expression did not significantly affect progression-free survival in a systematic review and meta-analysis [PMID:38729036]. Studying the abnormal activation of PD-1/PD-L1 pathways helps to understand the mechanisms of immunotherapy and identify advantageous patient populations [PMID:37207445]. Immunotherapy has also been shown to be superior to traditional chemotherapy in locally advanced/recurrent/metastatic HNSCC treatments [PMID:36499710].\n\nSTEP 3 \u2014 REFERENCES:\nPMID:33753620\nPMID:38729036\nPMID:36499710\nPMID:39376042\nPMID:37207445",
+    "cited_pmids": [
+      "33753620",
+      "38729036",
+      "36499710",
+      "39376042",
+      "37207445"
+    ],
+    "valid_pmids": [
+      "33753620",
+      "38729036",
+      "36499710",
+      "39376042",
+      "37207445"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 12.91787338256836,
+    "error": null
+  },
+  {
+    "query_id": "Q03",
+    "category": "TME",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "What role do tumor-infiltrating lymphocytes play in HNSCC tumor microenvironment?",
+    "retrieved_pmids": [
+      "40650111",
+      "40778950",
+      "38622125",
+      "38938577",
+      "38493212"
+    ],
+    "response_text": "Tumor-infiltrating lymphocytes play diverse roles in the head and neck squamous cell carcinoma (HNSCC) tumor microenvironment. T lymphocytes exhibit dual functions, either promoting or suppressing tumor growth depending on their phenotype and interactions within the tumor microenvironment [PMID:40650111]. Cytotoxic T cells are involved in tumor immunity [PMID:40778950]. Specifically, CD8+ T cells and activated CD4 memory T cells are associated with favorable survival [PMID:38493212]. High infiltration of CD8+ T cells predicts a favorable clinical outcome and better prognosis [PMID:38938577, PMID:38493212]. However, stromal regulatory T cells and intraepithelial exhausted CD8+ T cells (expressing PD-1 and/or LAG-3) are predominant phenotypes indicating an immunosuppressive tumor microenvironment [PMID:38938577].\n\nTumor-infiltrating B cells (TIL-Bs) have a crucial, synergistic role in tumor control [PMID:38622125]. These TIL-Bs produce antibodies and likely contribute to tumor elimination by activating tumor immunity in HNSCC tissues [PMID:40778950]. The presence of tumor-infiltrating antibody-secreting cells correlates with a favorable prognosis [PMID:40778950]. A B cell activation group is associated with a better prognosis and higher immune cell infiltration [PMID:38622125]. Antibodies produced by TIL-Bs can be recognized by NK cells with Fc receptors, potentially enhancing tumor immunity [PMID:40778950].\n\nReferences:\nPMID:40650111\nPMID:40778950\nPMID:38622125\nPMID:38938577\nPMID:38493212",
+    "cited_pmids": [
+      "40650111",
+      "40778950",
+      "38493212",
+      "38938577",
+      "38622125"
+    ],
+    "valid_pmids": [
+      "40650111",
+      "40778950",
+      "38493212",
+      "38938577",
+      "38622125"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 9.115691184997559,
+    "error": null
+  },
+  {
+    "query_id": "Q03",
+    "category": "TME",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "What role do tumor-infiltrating lymphocytes play in HNSCC tumor microenvironment?",
+    "retrieved_pmids": [
+      "40650111",
+      "40778950",
+      "38622125",
+      "38938577",
+      "38493212"
+    ],
+    "response_text": "Tumor-infiltrating immune cells, including T lymphocytes and B cells, exhibit dual functions, either promoting or suppressing tumor growth depending on their phenotype and interactions within the tumor microenvironment (TME) [PMID:40650111]. T lymphocytes highly infiltrate the tumor stroma [PMID:38938577]. Within the TME, stromal regulatory T cells and intraepithelial exhausted CD8+ T cells expressing programmed cell death protein-1 (PD-1+) and/or lymphocyte-activation gene-3 (LAG-3+) are predominant phenotypes, indicating an immunosuppressive TME [PMID:38938577]. However, CD8+ T cells and activated CD4 memory T cells are associated with favorable survival [PMID:38493212]. A high CD8+ T cell content is linked to a better prognosis [PMID:38493212]. CD8+ T cells also emerge as independent prognostic factors for local and distant recurrence [PMID:38938577]. HPV-associated tumors show significantly higher infiltration of several CD8+ T cell phenotypes, including exhausted, activated, and proliferating T cells [PMID:38938577].\n\nTumor-infiltrating B cells (TIL-Bs) have a crucial, synergistic role in tumor control [PMID:38622125]. Expanded TIL-Bs produce antibodies and likely contribute to tumor elimination by activating tumor immunity in HNSCC tissues [PMID:40778950]. The existence of tumor-infiltrating antibody-secreting cells (ASCs) correlates with a favorable prognosis [PMID:40778950]. A B cell activation group is associated with a better prognosis, higher immune cell infiltration, and elevated PD-L1 levels [PMID:38622125]. CXCL13+CD4+ T cells attract B cells, leading to clonal expansion of ASCs [PMID:40778950].\n\nReferences:\n- PMID:40650111\n- PMID:40778950\n- PMID:38622125\n- PMID:38938577\n- PMID:38493212",
+    "cited_pmids": [
+      "40650111",
+      "38938577",
+      "38493212",
+      "38622125",
+      "40778950"
+    ],
+    "valid_pmids": [
+      "40650111",
+      "38938577",
+      "38493212",
+      "38622125",
+      "40778950"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 12.066485404968262,
+    "error": null
+  },
+  {
+    "query_id": "Q03",
+    "category": "TME",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "What role do tumor-infiltrating lymphocytes play in HNSCC tumor microenvironment?",
+    "retrieved_pmids": [
+      "40650111",
+      "40778950",
+      "38622125",
+      "38938577",
+      "38493212"
+    ],
+    "response_text": "Tumor-infiltrating lymphocytes (TILs) play a complex and multifaceted role in the head and neck squamous cell carcinoma (HNSCC) tumor microenvironment (TME), exhibiting dual functions that can either promote or suppress tumor growth [PMID:40650111].\n\nT lymphocytes, including cytotoxic T cells, are involved in tumor immunity [PMID:40778950]. Specifically, CD8+ T cells and activated CD4 memory T cells are associated with favorable survival in HNSCC across different tumor sites [PMID:38493212]. A high content of CD8+ T cells within immune cell clusters is linked to a better prognosis [PMID:38493212]. CD8+ T cells, alongside type I conventional dendritic cells (cDC1), are identified as independent prognostic factors for local and distant recurrence [PMID:38938577]. HPV-associated tumors demonstrate significantly higher infiltration of various CD8+ T cell phenotypes, including exhausted, activated, and proliferating T cells [PMID:38938577]. However, the HNSCC TME can also be immunosuppressive, characterized by predominant stromal regulatory T cells and intraepithelial exhausted CD8+ T cells expressing programmed cell death protein-1 (PD-1) and/or lymphocyte-activation gene-3 (LAG-3) [PMID:38938577].\n\nTumor-infiltrating B cells (TIL-Bs) also contribute significantly to tumor control [PMID:38622125]. Expanded TIL-Bs produce antibodies that likely contribute to tumor elimination by activating tumor immunity in HNSCC tissues [PMID:40778950]. The presence of tumor-infiltrating antibody-secreting cells (ASCs) correlates with a favorable prognosis [PMID:40778950]. A B cell activation group is associated with a better prognosis, higher immune cell infiltration, and elevated PD-L1 levels [PMID:38622125]. CXCL13+CD4+ T cells attract B cells, and TIL-Bs at various differentiation stages show clonal expansion of ASCs [PMID:40778950]. These ASCs produce antibodies that bind to tumor antigens, which are then recognized by macrophage and NK cells via Fc receptors, potentially enhancing tumor immunity [PMID:40778950].\n\nDespite these antitumor roles, immune evasion mechanisms, such as the loss of human leukocyte antigen (HLA) expression, upregulation of immune checkpoint molecules, and metabolic reprogramming, contribute to immune suppression and poor treatment responses within the HNSCC TME [PMID:40650111].\n\nReferences\nPMID:40650111\nPMID:40778950\nPMID:38622125\nPMID:38938577\nPMID:38493212",
+    "cited_pmids": [
+      "40650111",
+      "40778950",
+      "38493212",
+      "38938577",
+      "38622125"
+    ],
+    "valid_pmids": [
+      "40650111",
+      "40778950",
+      "38493212",
+      "38938577",
+      "38622125"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 11.717833995819092,
+    "error": null
+  },
+  {
+    "query_id": "Q04",
+    "category": "Targeted therapy",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "What are the latest developments in EGFR-targeted therapy for HNSCC?",
+    "retrieved_pmids": [
+      "40996745",
+      "37067660",
+      "36131561",
+      "35409179",
+      "41690534"
+    ],
+    "response_text": "The latest developments in EGFR-targeted therapy for HNSCC include novel agents such as bispecific antibodies, antibody-drug conjugates, immune cell engagers, and adaptive cell therapies [PMID:40996745]. Specific examples of emerging dual-target bispecific antibodies include duligotuzumab (EGFR/HER3), petosemtamab (EGFR/LGR5), and ficerafusp alfa (EGFR/TGF-\u03b2) [PMID:41690534]. Irreversible pan-HER tyrosine kinase inhibitors like afatinib and dacomitinib are also being explored [PMID:41690534]. Additionally, intratumoral EGFR antisense DNA (EGFR-AS) has shown preclinical synergy with cetuximab and radiotherapy [PMID:41690534].\n\nEmerging strategies also focus on combinatorial approaches [PMID:40996745], particularly with immunotherapy, which suggests synergistic effects for a more robust immune response [PMID:37067660]. These strategies aim to overcome resistance mechanisms to current EGFR-targeted therapies, which include EGFR mutations, compensatory activation of alternative receptor tyrosine kinases, downstream pathway alterations, epithelial-mesenchymal transition, and immunosuppressive tumor microenvironment factors [PMID:41690534]. Future progress will depend on a deeper understanding of tumor biology, innovative approaches to reduce on-target off-tumor toxic effects, and improving efficacy in HPV-positive HNSCC [PMID:40996745]. Biomarker-driven patient selection and combination strategies are also critical to enhance efficacy and durability of response [PMID:41690534].\n\nReferences\nPMID:35409179\nPMID:36131561\nPMID:37067660\nPMID:40996745\nPMID:41690534",
+    "cited_pmids": [
+      "40996745",
+      "41690534",
+      "37067660",
+      "35409179",
+      "36131561"
+    ],
+    "valid_pmids": [
+      "40996745",
+      "41690534",
+      "37067660",
+      "35409179",
+      "36131561"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 7.779845714569092,
+    "error": null
+  },
+  {
+    "query_id": "Q04",
+    "category": "Targeted therapy",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "What are the latest developments in EGFR-targeted therapy for HNSCC?",
+    "retrieved_pmids": [
+      "40996745",
+      "37067660",
+      "36131561",
+      "35409179",
+      "41690534"
+    ],
+    "response_text": "The evolving landscape of EGFR-targeted therapeutics in HNSCC includes novel agents such as bispecific antibodies, antibody-drug conjugates, immune cell engagers, and adaptive cell therapies [PMID:40996745]. Emerging strategies aim to overcome resistance through dual EGFR inhibition, combination with new generation targeted agents, and immunomodulation [PMID:41690534]. Specific examples of these emerging agents include irreversible pan-HER tyrosine kinase inhibitors like afatinib and dacomitinib, and dual-target bispecific antibodies such as duligotuzumab (EGFR/HER3), petosemtamab (EGFR/LGR5), or ficerafusp alfa (EGFR/TGF-\u03b2) [PMID:41690534]. Intratumoral EGFR antisense DNA (EGFR-AS) has also shown synergy with cetuximab and radiotherapy in preclinical models and a phase I trial [PMID:41690534]. The future of EGFR-directed therapies will likely involve exploring combination therapies, especially with immunotherapy, due to early evidence suggesting synergistic effects that allow for a more robust immune response [PMID:37067660]. Small-molecule tyrosine kinase inhibitors (TKIs) represent a viable option, with some emerging TKIs showing clinical benefit [PMID:36131561].\n\nReferences:\n- PMID:40996745\n- PMID:37067660\n- PMID:36131561\n- PMID:41690534",
+    "cited_pmids": [
+      "40996745",
+      "41690534",
+      "37067660",
+      "36131561"
+    ],
+    "valid_pmids": [
+      "40996745",
+      "41690534",
+      "37067660",
+      "36131561"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 6.2807652950286865,
+    "error": null
+  },
+  {
+    "query_id": "Q04",
+    "category": "Targeted therapy",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "What are the latest developments in EGFR-targeted therapy for HNSCC?",
+    "retrieved_pmids": [
+      "40996745",
+      "37067660",
+      "36131561",
+      "35409179",
+      "41690534"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 1 (PMID:40996745):** This abstract is highly relevant as its title is \"Emerging EGFR-Targeted Therapy in Head and Neck Cancer: A Review\" and it explicitly discusses the \"evolving landscape of EGFR-targeted therapeutics,\" including novel agents and combinatorial approaches.\n*   **Abstract 2 (PMID:37067660):** This abstract is relevant because it addresses \"Future Directions of EGFR-Directed Therapy\" and highlights the potential of combination therapies, especially with immunotherapy.\n*   **Abstract 5 (PMID:41690534):** This abstract is highly relevant as it focuses on \"Overcoming resistance mechanisms and novel therapeutic frontiers\" beyond traditional EGFR inhibition, detailing emerging strategies and specific new agents.\n\nSTEP 2 \u2014 SYNTHESIS:\nThe latest developments in EGFR-targeted therapy for HNSCC involve novel agents, combinatorial approaches, and strategies to overcome resistance [PMID:40996745, PMID:41690534]. The evolving landscape of EGFR-targeted therapeutics includes bispecific antibodies, antibody-drug conjugates, immune cell engagers, and adaptive cell therapies [PMID:40996745]. Emerging strategies aim to overcome resistance through dual EGFR inhibition, combination with new generation targeted agents, and immunomodulation [PMID:41690534].\n\nSpecific examples of emerging agents include irreversible pan-HER tyrosine kinase inhibitors such as afatinib and dacomitinib [PMID:41690534]. Dual-target bispecific antibodies like duligotuzumab (EGFR/HER3), petosemtamab (EGFR/LGR5), and ficerafusp alfa (EGFR/TGF-\u03b2) have shown promising preclinical and early-phase clinical activity [PMID:41690534]. Additionally, intratumoral EGFR antisense DNA (EGFR-AS) has demonstrated synergy with cetuximab and radiotherapy in preclinical models and a phase I trial [PMID:41690534].\n\nCombination therapies, particularly with immunotherapy, represent a significant future direction for EGFR-directed therapies, with early evidence suggesting synergistic effects that could lead to a more robust immune response [PMID:37067660]. Future progress will depend on novel agents leveraging a deeper understanding of tumor biology, innovative approaches to reduce on-target off-tumor toxic effects, and improving efficacy in the growing population of patients with HPV-positive HNSCC [PMID:40996745]. Biomarker-driven patient selection and combination strategies are crucial to enhance efficacy and durability of response [PMID:41690534].\n\nSTEP 3 \u2014 REFERENCES:\nPMID:40996745\nPMID:37067660\nPMID:41690534",
+    "cited_pmids": [
+      "40996745",
+      "37067660",
+      "41690534"
+    ],
+    "valid_pmids": [
+      "40996745",
+      "37067660",
+      "41690534"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 10.783384084701538,
+    "error": null
+  },
+  {
+    "query_id": "Q05",
+    "category": "Epigenetics",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "How is DNA methylation used as a biomarker for oral squamous cell carcinoma?",
+    "retrieved_pmids": [
+      "36769317",
+      "39644423",
+      "41054367",
+      "39729421",
+      "41486283"
+    ],
+    "response_text": "DNA methylation is utilized as a biomarker for oral squamous cell carcinoma (OSCC) because aberrant methylation patterns are central to its growth and progression [PMID:41054367]. Specific methylation patterns are emerging as biomarkers for early OSCC detection [PMID:39644423, PMID:41054367]. These patterns, including hypermethylation causing inactivation of tumor suppressor genes and hypomethylation activating oncogenes, can serve as early detection, diagnostic, and prognostic biomarkers [PMID:41054367]. For instance, abnormal hypermethylation of the ZNF880 gene has been identified as a potential diagnostic epigenetic biomarker in OSCC [PMID:41486283]. In the broader context of head and neck squamous cell carcinoma (HNSCC), which includes OSCC, DNA methylation profiles represent a potential source for biomarker identification to enable diagnosis at the earliest possible stage, accurately predict prognostic outcomes, contribute to the timely detection of relapses, and aid in therapy selection [PMID:36769317]. Aberrant DNA methylation also impacts genes involved in medication metabolism and cell survival, influencing therapy resistance in OSCC [PMID:39644423].\n\nReferences\nPMID:36769317\nPMID:39644423\nPMID:41054367\nPMID:41486283",
+    "cited_pmids": [
+      "41054367",
+      "39644423",
+      "41486283",
+      "36769317"
+    ],
+    "valid_pmids": [
+      "41054367",
+      "39644423",
+      "41486283",
+      "36769317"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 6.088643550872803,
+    "error": null
+  },
+  {
+    "query_id": "Q05",
+    "category": "Epigenetics",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "How is DNA methylation used as a biomarker for oral squamous cell carcinoma?",
+    "retrieved_pmids": [
+      "36769317",
+      "39644423",
+      "41054367",
+      "39729421",
+      "41486283"
+    ],
+    "response_text": "DNA methylation patterns are emerging as biomarkers for early detection, diagnosis, and prognosis in oral squamous cell carcinoma (OSCC) [PMID:39644423, PMID:41054367]. Aberrant DNA methylation, including hypermethylation causing inactivation of tumor suppressor genes and hypomethylation activating oncogenes, is central to OSCC growth and progression [PMID:39644423, PMID:41054367]. These patterns can also aid in timely relapse detection and therapy selection in head and neck squamous cell carcinoma (HNSCC), which includes OSCC [PMID:36769317].\n\nGenome-wide DNA methylation analysis has identified differentially methylated probes and regions in OSCC tumor tissue [PMID:41486283]. For instance, high methylation of the ZNF880 gene has been verified in OSCC, correlating with its significantly lower expression in tumor tissues compared to normal tissues, indicating its role in OSCC pathogenesis and potential as a diagnostic epigenetic biomarker [PMID:41486283]. Epigenetic drugs also show potential to improve diagnostic precision and treatment outcomes by targeting these aberrant epigenetic patterns [PMID:39644423].\n\nReferences:\n- PMID:36769317\n- PMID:39644423\n- PMID:41054367\n- PMID:41486283",
+    "cited_pmids": [
+      "39644423",
+      "41054367",
+      "36769317",
+      "41486283"
+    ],
+    "valid_pmids": [
+      "39644423",
+      "41054367",
+      "36769317",
+      "41486283"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 6.42563796043396,
+    "error": null
+  },
+  {
+    "query_id": "Q05",
+    "category": "Epigenetics",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "How is DNA methylation used as a biomarker for oral squamous cell carcinoma?",
+    "retrieved_pmids": [
+      "36769317",
+      "39644423",
+      "41054367",
+      "39729421",
+      "41486283"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 1 (PMID:36769317):** This abstract is relevant because it states that DNA methylation represents a potential source for biomarker identification in HNSCC, which includes OSCC, for diagnosis, prognosis, timely relapse detection, and therapy selection.\n*   **Abstract 2 (PMID:39644423):** This abstract is highly relevant as it specifically identifies DNA hypermethylation of tumor suppressor genes as a prominent diagnostic biomarker for oral squamous cell carcinoma (OSCC) and mentions specific methylation patterns as biomarkers for early OSCC detection.\n*   **Abstract 3 (PMID:41054367):** This abstract is relevant because it explores how DNA methylation affects gene silencing and oncogene activation in OSCC, demonstrating that aberrant DNA methylation is central to OSCC growth and progression, and that methylation patterns can be used as early detection, diagnosis, and prognostic biomarkers.\n*   **Abstract 5 (PMID:41486283):** This abstract is relevant as it describes a comprehensive analysis of DNA methylation characteristics in OSCC with the aim of identifying potential diagnostic epigenetic biomarkers, specifically identifying abnormal hypermethylation of the ZNF880 gene in OSCC pathogenesis.\n\nSTEP 2 \u2014 SYNTHESIS:\nDNA methylation serves as a potential source for biomarker identification in head and neck squamous cell carcinoma (HNSCC), including oral squamous cell carcinoma (OSCC) [PMID:36769317]. Abnormally methylated DNA profiles in HNSCC patients can contribute to pathogenesis and designate methylation patterns that may constitute clinically valuable biomarkers for disease management and improved survival outcomes [PMID:36769317]. Specific methylation patterns are emerging as biomarkers for early OSCC detection [PMID:39644423]. DNA hypermethylation of tumor suppressor genes, which leads to their inactivation and promotes cancer development, is a prominent diagnostic biomarker among OSCC patients [PMID:39644423]. Aberrant DNA methylation is central to OSCC growth and progression, with hypermethylation causing inactivation of important tumor suppressor genes and hypomethylation causing activation of oncogenes [PMID:41054367]. These methylation patterns can be used as early detection, diagnosis, and prognostic biomarkers for OSCC [PMID:41054367]. Genome-wide DNA methylation analysis in OSCC has identified differential methylation probes and regions [PMID:41486283]. For instance, abnormal hypermethylation of the ZNF880 gene plays a catalytic role in the pathogenesis of OSCC and has been identified as a potential diagnostic epigenetic biomarker [PMID:41486283].\n\nSTEP 3 \u2014 REFERENCES:\n36769317\n39644423\n41054367\n41486283",
+    "cited_pmids": [
+      "36769317",
+      "39644423",
+      "41054367",
+      "41486283"
+    ],
+    "valid_pmids": [
+      "36769317",
+      "39644423",
+      "41054367",
+      "41486283"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 7.716614723205566,
+    "error": null
+  },
+  {
+    "query_id": "Q06",
+    "category": "Single-cell",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "What single-cell RNA sequencing studies have characterized HNSCC heterogeneity?",
+    "retrieved_pmids": [
+      "38085162",
+      "37012457",
+      "38421592",
+      "36157879",
+      "36451812"
+    ],
+    "response_text": "Single-cell RNA sequencing (scRNA-seq) studies have characterized various aspects of head and neck squamous cell carcinoma (HNSCC) heterogeneity. One study performed single-cell sequencing analysis on HNSCC tumor tissues, revealing transcriptional heterogeneity in immune cells within the tumor microenvironment, including macrophages and dendritic cells, and identifying two clusters of malignant epithelial cells with unique gene expression patterns [PMID:38085162]. Another study used scRNA-seq to profile HPV-positive and HPV-negative oropharyngeal tumors, uncovering high cellular diversity within and between tumors, including diverse chromosomal aberrations, heterogeneity in HNSCC subtypes and cellular states (cell cycle, senescence, epithelial-mesenchymal transitions), and heterogeneity in viral gene expression within HPV-positive tumors [PMID:37012457].\n\nFurther research utilizing scRNA-seq and bulk RNA-seq data comprehensively analyzed HNSCC at the cellular level, providing insights into its molecular characteristics and immune microenvironment [PMID:38421592]. An assessment of the HNSCC microenvironment based on single-cell sequencing analysis revealed dynamic changes in cell percentage and heterogeneity of cell subtypes in HNSCC, comparing HPV-positive and HPV-negative driven tumors [PMID:36157879]. Additionally, single-cell RNA sequencing analysis has been used to investigate the heterogeneity of cancer stem cells (CSCs) in HNSCC, highlighting their diversity and underlying mechanisms in forming an immunosuppressive tumor microenvironment [PMID:36451812].\n\nReferences\nPMID:36157879\nPMID:36451812\nPMID:37012457\nPMID:38085162\nPMID:38421592",
+    "cited_pmids": [
+      "38085162",
+      "37012457",
+      "38421592",
+      "36157879",
+      "36451812"
+    ],
+    "valid_pmids": [
+      "38085162",
+      "37012457",
+      "38421592",
+      "36157879",
+      "36451812"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 8.361899852752686,
+    "error": null
+  },
+  {
+    "query_id": "Q06",
+    "category": "Single-cell",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "What single-cell RNA sequencing studies have characterized HNSCC heterogeneity?",
+    "retrieved_pmids": [
+      "38085162",
+      "37012457",
+      "38421592",
+      "36157879",
+      "36451812"
+    ],
+    "response_text": "Single-cell RNA sequencing (scRNA-seq) studies have characterized HNSCC heterogeneity by revealing diverse cellular landscapes and molecular features. Single-cell sequencing analysis of HNSCC tumor tissues identified two clusters of malignant epithelial cells with unique gene expression patterns and dysregulated signaling pathways [PMID:38085162]. Transcriptional heterogeneity was also observed in immune cells within the tumor microenvironment, including macrophages and dendritic cells [PMID:38085162].\n\nIn HPV-related oropharyngeal carcinoma, single-cell RNA-seq uncovered a high level of cellular diversity within and between tumors [PMID:37012457]. This diversity includes chromosomal aberrations within individual tumors, heterogeneity in HNSCC subtypes and cellular states like cell cycle, senescence, and epithelial-mesenchymal transitions [PMID:37012457]. Furthermore, heterogeneity in viral gene expression was found within HPV-positive tumors [PMID:37012457].\n\nSingle-cell transcriptome analysis also revealed dynamic changes in cell percentage and heterogeneity of cell subtypes in HNSCC, with differing cell composition between sample types [PMID:36157879]. Another study using single-cell RNA-sequencing analysis aimed to determine the heterogeneity of cancer stem cells (CSCs) in HNSCC [PMID:36451812]. This analysis showed that naive CSCs were divided into two different types of cells with distinct functions, exhibiting functional diversity and highlighting the heterogeneity of CSCs [PMID:36451812]. Additionally, single-cell RNA sequencing has been utilized to comprehensively analyze HNSCC at the cellular level, identifying keratinocytes as a predominant cell type in tumor samples [PMID:38421592].\n\nReferences:\n- PMID:38085162\n- PMID:37012457\n- PMID:38421592\n- PMID:36157879\n- PMID:36451812",
+    "cited_pmids": [
+      "38085162",
+      "37012457",
+      "36157879",
+      "36451812",
+      "38421592"
+    ],
+    "valid_pmids": [
+      "38085162",
+      "37012457",
+      "36157879",
+      "36451812",
+      "38421592"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 9.234400749206543,
+    "error": null
+  },
+  {
+    "query_id": "Q06",
+    "category": "Single-cell",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "What single-cell RNA sequencing studies have characterized HNSCC heterogeneity?",
+    "retrieved_pmids": [
+      "38085162",
+      "37012457",
+      "38421592",
+      "36157879",
+      "36451812"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 1 [PMID:38085162]:** This abstract is relevant because it describes performing single-cell sequencing analysis on HNSCC tumor tissues and highlights \"transcriptional heterogeneity\" in immune cells and \"heterogeneity within HNSCC tumors\" [PMID:38085162].\n*   **Abstract 2 [PMID:37012457]:** This abstract is relevant as it uses single-cell RNA-seq to profile HNSCC tumors, uncovering a \"high level of cellular diversity within and between tumors\" and \"heterogeneity in viral gene expression\" [PMID:37012457].\n*   **Abstract 3 [PMID:38421592]:** This abstract is relevant because it utilized single-cell RNA sequencing (scRNA-seq) to comprehensively analyze HNSCC at the cellular level, providing insights into the \"molecular characteristics and immune microenvironment of HNSCC\" [PMID:38421592], which inherently characterizes cellular diversity.\n*   **Abstract 4 [PMID:36157879]:** This abstract is relevant as it performed single-cell transcriptome analysis to assess the HNSCC microenvironment and revealed \"heterogeneity of cell subtypes of HNSCC\" [PMID:36157879].\n*   **Abstract 5 [PMID:36451812]:** This abstract is relevant because it utilized single-cell RNA-sequencing analysis to investigate the \"heterogeneity of CSCs\" and revealed \"complex interaction and heterogeneity among cancer stem cells\" in HNSCC [PMID:36451812].\n\nSTEP 2 \u2014 SYNTHESIS:\nSeveral single-cell RNA sequencing (scRNA-seq) studies have characterized heterogeneity in head and neck squamous cell carcinoma (HNSCC). One study performed single-cell sequencing analysis on HNSCC tumor tissues, revealing heterogeneity within HNSCC tumors and transcriptional heterogeneity in immune cells, including macrophages and dendritic cells [PMID:38085162]. Another study used single-cell RNA-seq to profile both HPV-positive and HPV-negative oropharyngeal tumors, uncovering a high level of cellular diversity within and between tumors, diverse chromosomal aberrations, diversity in HNSCC subtypes and cellular states like cell cycle, senescence, and epithelial-mesenchymal transitions, and heterogeneity in viral gene expression within HPV-positive tumors [PMID:37012457]. Additionally, single-cell RNA sequencing was utilized to comprehensively analyze HNSCC at the cellular level, providing insights into its molecular characteristics and immune microenvironment [PMID:38421592]. Single-cell transcriptome analysis has also revealed dynamic changes in cell percentage and heterogeneity of cell subtypes in HNSCC, comparing immune signatures in HPV- and HPV+ driven HNSCC [PMID:36157879]. Furthermore, single-cell RNA-sequencing analysis has depicted the landscape of HNSCC transcriptome profiles to reveal complex interaction and heterogeneity among cancer stem cells (CSCs), including functional diversity among naive CSCs [PMID:36451812].\n\nSTEP 3 \u2014 REFERENCES:\nPMID:38085162\nPMID:37012457\nPMID:38421592\nPMID:36157879\nPMID:36451812",
+    "cited_pmids": [
+      "38085162",
+      "37012457",
+      "38421592",
+      "36157879",
+      "36451812"
+    ],
+    "valid_pmids": [
+      "38085162",
+      "37012457",
+      "38421592",
+      "36157879",
+      "36451812"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 7.962707281112671,
+    "error": null
+  },
+  {
+    "query_id": "Q07",
+    "category": "Molecular subtype",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "What molecular subtypes have been identified in HNSCC?",
+    "retrieved_pmids": [
+      "41045845",
+      "37685875",
+      "37750589",
+      "39547576",
+      "37040716"
+    ],
+    "response_text": "Molecular subtypes identified in head and neck squamous cell carcinoma (HNSCC) include IMU (immune strong) and KRT (highly keratinized) for HPV-associated HNSCC [PMID:41045845]. Additionally, three HNSC subtypes have been identified using the HNSC88 molecular signature, comprising one HPV-associated subtype and two HPV-negative subtypes; one HPV-negative subtype is related to smoking behavior, while the other shows high expression in tumor immune response [PMID:37685875]. For HPV-negative HNSCC, gene expression signatures classify patients into four molecular subtypes: classical, basal, mesenchymal, and atypical [PMID:37750589].\n\nReferences\nPMID:37685875\nPMID:37750589\nPMID:41045845",
+    "cited_pmids": [
+      "41045845",
+      "37685875",
+      "37750589"
+    ],
+    "valid_pmids": [
+      "41045845",
+      "37685875",
+      "37750589"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 4.815406799316406,
+    "error": null
+  },
+  {
+    "query_id": "Q07",
+    "category": "Molecular subtype",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "What molecular subtypes have been identified in HNSCC?",
+    "retrieved_pmids": [
+      "41045845",
+      "37685875",
+      "37750589",
+      "39547576",
+      "37040716"
+    ],
+    "response_text": "Molecular subtypes identified in HNSCC include IMU (immune strong) and KRT (highly keratinized) for HPV-associated tumors [PMID:41045845]. Based on the HNSC88 gene signature, three HNSC subtypes have been determined: one HPV-associated subtype and two HPV-negative subtypes [PMID:37685875]. One of the HPV-negative subtypes showed a relationship to smoking behavior, while the other exhibited high expression in tumor immune response [PMID:37685875]. For HPV-negative HNSCC, gene expression signatures classify patients into four molecular subtypes: classical, basal, mesenchymal, and atypical [PMID:37750589].\n\nReferences:\n- PMID:41045845\n- PMID:37685875\n- PMID:37750589",
+    "cited_pmids": [
+      "41045845",
+      "37685875",
+      "37750589"
+    ],
+    "valid_pmids": [
+      "41045845",
+      "37685875",
+      "37750589"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 6.220434188842773,
+    "error": null
+  },
+  {
+    "query_id": "Q07",
+    "category": "Molecular subtype",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "What molecular subtypes have been identified in HNSCC?",
+    "retrieved_pmids": [
+      "41045845",
+      "37685875",
+      "37750589",
+      "39547576",
+      "37040716"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 1 (PMID:41045845):** This abstract is relevant because it explicitly identifies molecular subtypes of HPV-associated HNSCC, namely IMU and KRT.\n*   **Abstract 2 (PMID:37685875):** This abstract is relevant as it describes the identification of three distinct HNSC molecular subtypes, including one HPV-associated and two HPV-negative subtypes, based on the HNSC88 molecular signature.\n*   **Abstract 3 (PMID:37750589):** This abstract is relevant because it mentions that gene expression signatures have been used to classify HNSCC into four molecular subtypes: classical, basal, mesenchymal, and atypical, specifically for HPV-negative HNSCC.\n*   **Abstract 4 (PMID:39547576):** This abstract discusses \"histopathologic subtypes\" of HNSCC, which are distinct from \"molecular subtypes.\" Therefore, it is not directly relevant to the question about molecular subtypes.\n*   **Abstract 5 (PMID:37040716):** This abstract focuses on genomic variants of HPV16 and their distribution, not on broader molecular subtypes of HNSCC. Therefore, it is not directly relevant.\n\nSTEP 2 \u2014 SYNTHESIS:\nMolecular subtypes identified in Head and Neck Squamous Cell Carcinoma (HNSCC) include IMU (immune strong) and KRT (highly keratinized) for HPV-associated HNSCC [PMID:41045845]. Additionally, three HNSC molecular subtypes have been determined based on the HNSC88 molecular signature, comprising one HPV-associated subtype and two HPV-negative subtypes [PMID:37685875]. One of these HPV-negative subtypes is related to smoking behavior, while the other exhibits high expression in tumor immune response [PMID:37685875]. Furthermore, gene expression signatures have classified HNSCC into four molecular subtypes: classical, basal, mesenchymal, and atypical, particularly for HPV-negative HNSCC patients [PMID:37750589].\n\nSTEP 3 \u2014 REFERENCES:\nPMID:41045845\nPMID:37685875\nPMID:37750589",
+    "cited_pmids": [
+      "41045845",
+      "37685875",
+      "37750589",
+      "39547576",
+      "37040716"
+    ],
+    "valid_pmids": [
+      "41045845",
+      "37685875",
+      "37750589",
+      "39547576",
+      "37040716"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 7.64808201789856,
+    "error": null
+  },
+  {
+    "query_id": "Q08",
+    "category": "HPV",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "How does HPV-positive HNSCC differ molecularly from HPV-negative HNSCC?",
+    "retrieved_pmids": [
+      "40619351",
+      "39993810",
+      "40565370",
+      "37903125",
+      "37012457"
+    ],
+    "response_text": "HPV-positive HNSCC differs molecularly from HPV-negative HNSCC in several ways. Specific gene expression profiles are associated with clinical outcomes exclusively in HPV-positive HNSCC patients, including *FABP4*, *HMGA2*, *S100A10*, *GDNF*, *SLC7A,2*, and *GPR18* [PMID:40565370]. In contrast, *ST6GALNAC1* expression is associated with overall survival in HPV-negative HNSCC [PMID:40565370]. Furthermore, HPV-positive oropharyngeal tumors exhibit HPV-associated cell cycle phenotypes, which decrease when HPV expression is lost or repressed in a subset of cells [PMID:37012457].\n\nReferences:\nPMID:40565370\nPMID:37012457",
+    "cited_pmids": [
+      "40565370",
+      "37012457"
+    ],
+    "valid_pmids": [
+      "40565370",
+      "37012457"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 7.800862550735474,
+    "error": null
+  },
+  {
+    "query_id": "Q08",
+    "category": "HPV",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "How does HPV-positive HNSCC differ molecularly from HPV-negative HNSCC?",
+    "retrieved_pmids": [
+      "40619351",
+      "39993810",
+      "40565370",
+      "37903125",
+      "37012457"
+    ],
+    "response_text": "HPV-positive HNSCC exhibits distinct transcriptional profiles compared to HPV-negative HNSCC [PMID:40565370]. Specifically, the expression levels of genes such as *FABP4*, *HMGA2*, *S100A10*, *GDNF*, *SLC7A,2*, and *GPR18* are associated with overall survival exclusively in HPV-positive HNSCC patients [PMID:40565370]. In contrast, *ST6GALNAC1* expression is associated with overall survival in HPV-negative HNSCC [PMID:40565370].\n\nMolecularly, HPV-positive HNSCC involves HPV E6 and E7 oncoproteins disrupting key tumor suppressor pathways, HPV DNA integration into the host genome, and resulting genomic instability [PMID:40619351]. Within HPV-positive tumors, there is heterogeneity in viral gene expression, where the loss or repression of HPV expression in a subset of cells is associated with a decrease in HPV-associated cell cycle phenotypes [PMID:37012457].\n\nHPV-negative HNSCC can be classified into two subtypes (C1, C2) based on cell cycle-related genes [PMID:37903125]. Subtype C1 displays low cell cycle activity and a 'hot' tumor microenvironment, while subtype C2 is associated with higher cell cycle activity and a 'cold' tumor microenvironment [PMID:37903125]. Both HPV-positive and HPV-negative oropharyngeal tumors can exhibit diverse chromosomal aberrations, suggesting genomic instability [PMID:37012457].\n\nReferences:\n- PMID:40619351\n- PMID:40565370\n- PMID:37903125\n- PMID:37012457",
+    "cited_pmids": [
+      "40565370",
+      "40619351",
+      "37012457",
+      "37903125"
+    ],
+    "valid_pmids": [
+      "40565370",
+      "40619351",
+      "37012457",
+      "37903125"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 10.095102310180664,
+    "error": null
+  },
+  {
+    "query_id": "Q08",
+    "category": "HPV",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "How does HPV-positive HNSCC differ molecularly from HPV-negative HNSCC?",
+    "retrieved_pmids": [
+      "40619351",
+      "39993810",
+      "40565370",
+      "37903125",
+      "37012457"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 3 [PMID:40565370]:** This abstract is highly relevant as it directly compares molecular profiles differentially expressed between HPV-positive and -negative HNSCC patients, identifying specific genes associated with clinical outcome in each group.\n*   **Abstract 5 [PMID:37012457]:** This abstract is relevant because it profiles both HPV-positive and HPV-negative oropharyngeal tumors, uncovering cellular diversity and genomic differences, and discussing heterogeneity in viral gene expression within HPV-positive tumors.\n\nSTEP 2 \u2014 SYNTHESIS:\nHPV-positive HNSCC differs molecularly from HPV-negative HNSCC in several ways. Molecular profiles are differentially expressed between HPV-positive and HPV-negative HNSCC patients [PMID:40565370]. Specifically, the expression levels of *FABP4*, *HMGA2*, *S100A10*, *GDNF*, *SLC7A,2*, and *GPR18* genes are associated with overall survival exclusively in HPV-positive HNSCC patients [PMID:40565370]. Conversely, *ST6GALNAC1* expression is associated with overall survival in HPV-negative HNSCC [PMID:40565370]. Single-cell RNA sequencing of both HPV-positive and HPV-negative oropharyngeal tumors reveals a high level of cellular diversity within and between tumors [PMID:37012457]. Diverse chromosomal aberrations are detected within individual tumors, suggesting genomic instability [PMID:37012457]. Within HPV-positive tumors, heterogeneity in viral gene expression is observed, and the loss or repression of HPV expression in a subset of cells is associated with a decrease in HPV-associated cell cycle phenotypes [PMID:37012457].\n\nSTEP 3 \u2014 REFERENCES:\nPMID:40565370\nPMID:37012457",
+    "cited_pmids": [
+      "40565370",
+      "37012457"
+    ],
+    "valid_pmids": [
+      "40565370",
+      "37012457"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 8.768376588821411,
+    "error": null
+  },
+  {
+    "query_id": "Q09",
+    "category": "Mutations",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "What are common somatic mutations in HNSCC and their clinical implications?",
+    "retrieved_pmids": [
+      "38410968",
+      "36165723",
+      "37080394",
+      "35409179",
+      "37449494"
+    ],
+    "response_text": "Common somatic mutations in head and neck squamous cell carcinoma (HNSCC) include Fibroblast growth factor (FGF)/fibroblast growth factor receptor (FGFR) genomic alterations, such as amplification, activating mutation, and chromosomal rearrangement [PMID:36165723]. Specifically, FGFR1 amplification, FGF amplifications, and FGFR3 mutations are prevalent [PMID:36165723]. Both oral squamous cell carcinoma (OSCC) and head and neck cutaneous squamous cell carcinoma (HNcSCC) demonstrate a predominance of tumor suppressor gene mutations, predominantly TP53 [PMID:37080394]. The most frequently mutated oncogenes are PIK3CA in OSCC and MUC4 in HNcSCC [PMID:37080394]. EGFR mutations are also acquired in HNSCC [PMID:35409179]. p53 is one of the most commonly mutated genes in HNSCC, with a mutation rate reaching 65-85%, and most p53 mutations are missense mutations [PMID:37449494].\n\nThe clinical implications of these mutations are significant. FGF/FGFR is a promising target for HNSCC treatment, and FGFR inhibitors are currently in clinical trials [PMID:36165723]. The distinct genomic profiles, including these mutations, between OSCC and HNcSCC may underlie differences in behavior and guide treatment decisions in recurrent and metastatic settings [PMID:37080394]. EGFR mutations alter drug binding dynamics, leading to resistance, and can impact radiation response and overall survival in HNSCC patients [PMID:35409179]. A better understanding of the EGFR mutational landscape holds the potential to better stratify patients for targeted therapies [PMID:35409179]. Mutant p53 not only inhibits its tumor suppressive function but also provides gain-of-function (GOF) to facilitate tumor recurrence [PMID:37449494]. Mutant p53 can interact with proteins, RNA, and exosomes to exert effects on proliferation, migration, invasion, immunosuppression, and metabolism [PMID:37449494]. Understanding the mechanism of mutant p53 may provide potential applications for targeted therapy, with proposed strategies including reactivation of mutant p53, induction of its degradation, enhancement of synthetic lethality, and immunotherapy [PMID:37449494].\n\n### References\nPMID:35409179\nPMID:36165723\nPMID:37080394\nPMID:37449494",
+    "cited_pmids": [
+      "36165723",
+      "37080394",
+      "35409179",
+      "37449494"
+    ],
+    "valid_pmids": [
+      "36165723",
+      "37080394",
+      "35409179",
+      "37449494"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 11.307972431182861,
+    "error": null
+  },
+  {
+    "query_id": "Q09",
+    "category": "Mutations",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "What are common somatic mutations in HNSCC and their clinical implications?",
+    "retrieved_pmids": [
+      "38410968",
+      "36165723",
+      "37080394",
+      "35409179",
+      "37449494"
+    ],
+    "response_text": "Common somatic mutations in head and neck squamous cell carcinoma (HNSCC) include alterations in Fibroblast growth factor (FGF)/fibroblast growth factor receptor (FGFR) genes, such as amplification, activating mutations, and chromosomal rearrangements [PMID:36165723]. Specifically, FGFR1 amplification, FGF amplifications, and FGFR3 mutations are frequently observed [PMID:36165723]. These FGF/FGFR alterations are promising targets for HNSCC treatment, with FGFR inhibitors currently in clinical trials [PMID:36165723].\n\nTP53 is one of the most commonly mutated genes in HNSCC, with missense mutations reaching a rate of 65-85% [PMID:37449494]. TP53 mutations not only inhibit tumor suppressive functions but also provide gain-of-function properties that facilitate tumor recurrence, affecting proliferation, migration, invasion, immunosuppression, and metabolism [PMID:37449494]. Understanding mutant p53 mechanisms may lead to targeted therapies [PMID:37449494]. TP53 mutations are predominant tumor suppressor gene mutations in both oral squamous cell carcinoma (OSCC) and head and neck cutaneous squamous cell carcinoma (HNcSCC) [PMID:37080394].\n\nOther frequently mutated oncogenes include PIK3CA in OSCC and MUC4 in HNcSCC [PMID:37080394]. The distinct genomic profiles, including these mutations, may guide treatment decisions in recurrent and metastatic settings [PMID:37080394].\n\nEGFR is overexpressed in HNSCC, and mutations in various domains of the EGFR gene can alter drug binding dynamics, leading to resistance, and impact radiation response and overall survival [PMID:35409179]. A better understanding of the EGFR mutational landscape can help stratify patients for targeted therapies [PMID:35409179].\n\nReferences:\n- PMID:38410968\n- PMID:36165723\n- PMID:37080394\n- PMID:35409179\n- PMID:37449494",
+    "cited_pmids": [
+      "36165723",
+      "37449494",
+      "37080394",
+      "35409179",
+      "38410968"
+    ],
+    "valid_pmids": [
+      "36165723",
+      "37449494",
+      "37080394",
+      "35409179",
+      "38410968"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 13.291649580001831,
+    "error": null
+  },
+  {
+    "query_id": "Q09",
+    "category": "Mutations",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "What are common somatic mutations in HNSCC and their clinical implications?",
+    "retrieved_pmids": [
+      "38410968",
+      "36165723",
+      "37080394",
+      "35409179",
+      "37449494"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 2 (PMID:36165723):** This abstract is highly relevant as it directly discusses frequently detected genomic alterations (somatic mutations) in HNSCC, such as FGFR amplifications and mutations, and their potential as therapeutic targets.\n*   **Abstract 3 (PMID:37080394):** This abstract is highly relevant as it compares the genomic landscapes of OSCC and HNcSCC, identifying common tumor suppressor gene mutations (TP53) and oncogene mutations (PIK3CA, MUC4), as well as differences in Tumor Mutation Burden (TMB) and mutational signatures, all of which have diagnostic, prognostic, and treatment implications.\n*   **Abstract 4 (PMID:35409179):** This abstract is highly relevant as it focuses specifically on EGFR mutations in HNSCC, discussing how these mutations impact drug binding, resistance, radiation response, and overall survival, and their potential for patient stratification for targeted therapies.\n*   **Abstract 5 (PMID:37449494):** This abstract is highly relevant as it details the high prevalence of p53 mutations in HNSCC, their gain-of-function effects, and proposed treatment strategies targeting mutant p53.\n\nSTEP 2 \u2014 SYNTHESIS:\nCommon somatic mutations in head and neck squamous cell carcinoma (HNSCC) include alterations in fibroblast growth factor (FGF)/fibroblast growth factor receptor (FGFR) signaling, TP53, PIK3CA, MUC4, and EGFR [PMID:36165723, PMID:37080394, PMID:35409179, PMID:37449494].\n\nFGF/FGFR genomic alterations, such as amplification, activating mutation, and chromosomal rearrangement, are frequently detected in HNSCC [PMID:36165723]. Among these, FGFR1 amplification, FGF amplifications, and FGFR3 mutations are the most prevalent [PMID:36165723]. FGF/FGFR is a promising target for HNSCC treatment, with FGFR inhibitors currently in clinical trials [PMID:36165723].\n\nTP53 is one of the most commonly mutated genes in HNSCC, with a mutation rate reaching 65-85%, predominantly missense mutations [PMID:37449494]. Both oral squamous cell carcinoma (OSCC) and head and neck cutaneous squamous cell carcinoma (HNcSCC) demonstrate a predominance of tumor suppressor gene mutations, predominantly TP53 [PMID:37080394]. Mutant p53 not only inhibits its tumor suppressive function but also acquires novel gain-of-function (GOF) properties that facilitate tumor recurrence [PMID:37449494]. Understanding the mechanism of mutant p53 may provide potential applications for targeted therapy in HNSCC patients [PMID:37449494].\n\nThe most frequently mutated oncogenes are PIK3CA in OSCC and MUC4 in HNcSCC [PMID:37080394]. The genomic characteristics of these mutations may underlie differences in tumor behavior and guide treatment decisions in recurrent and metastatic settings [PMID:37080394].\n\nEGFR is overexpressed in HNSCC, and mutations in various domains of the EGFR gene can alter drug binding dynamics, leading to resistance, and impact radiation response and overall survival [PMID:35409179]. While EGFR blockade is an attractive target, anti-EGFR strategies often face resistance [PMID:35409179]. A better understanding of the EGFR mutational landscape holds the potential to stratify patients for targeted therapies to maximize therapeutic benefits [PMID:35409179].\n\nAdditionally, the genomic landscapes of OSCC and HNcSCC show distinct profiles [PMID:37080394]. The median tumor mutation burden (TMB) in primary OSCC (3.75) is significantly lower than in primary HNcSCC (147.51 mutations/Mb) [PMID:37080394]. COSMIC mutation signatures also differ significantly, with OSCC showing signatures 1 and AID/APOBEC activity-associated signature 2 and/or 13, while HNcSCC (except one case) shows UV damage-associated signature 7 [PMID:37080394]. The combination of high TMB and a UV signature in a metastatic keratinizing squamous cell carcinoma suggests HNcSCC as the primary site and may facilitate decisions regarding immunotherapy [PMID:37080394].\n\nSTEP 3 \u2014 REFERENCES:\nPMID:36165723\nPMID:37080394\nPMID:35409179\nPMID:37449494",
+    "cited_pmids": [
+      "36165723",
+      "37080394",
+      "35409179",
+      "37449494"
+    ],
+    "valid_pmids": [
+      "36165723",
+      "37080394",
+      "35409179",
+      "37449494"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 13.273079872131348,
+    "error": null
+  },
+  {
+    "query_id": "Q10",
+    "category": "Biomarker",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "What prognostic biomarkers have been validated for HNSCC patient stratification?",
+    "retrieved_pmids": [
+      "36261806",
+      "36398480",
+      "36702014",
+      "40252811",
+      "37098725"
+    ],
+    "response_text": "Several prognostic biomarkers have been validated for HNSCC patient stratification. A cancer stem cell (CSC) gene expression signature, based on mRNA expression levels correlated with CD44, MET, ALDH1A1, and BMI1, has been validated as an independent prognostic factor for HNSCC, especially in cases with HPV (-) status and for patients who received radiotherapy [PMID:36261806]. A novel prognostic signature comprising six genes, developed by integrating single-cell and bulk transcriptomic datasets, has been validated as a robust prognostic biomarker for HNSCC [PMID:36398480]. Additionally, the 172-gene signature (172GS) has been validated for predicting survival outcomes in HPV-negative HNSCC patients receiving radiotherapy, demonstrating superior prognostic accuracy compared to the TNM staging system [PMID:40252811]. Furthermore, an 8-gene prognostic signature derived from essential genes has been developed and validated for HNSCC, allowing for patient segregation into clusters with distinct survival rates across multiple cohorts [PMID:37098725].\n\nReferences\nPMID:36261806\nPMID:36398480\nPMID:37098725\nPMID:40252811",
+    "cited_pmids": [
+      "36261806",
+      "36398480",
+      "40252811",
+      "37098725"
+    ],
+    "valid_pmids": [
+      "36261806",
+      "36398480",
+      "40252811",
+      "37098725"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 7.3296332359313965,
+    "error": null
+  },
+  {
+    "query_id": "Q10",
+    "category": "Biomarker",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "What prognostic biomarkers have been validated for HNSCC patient stratification?",
+    "retrieved_pmids": [
+      "36261806",
+      "36398480",
+      "36702014",
+      "40252811",
+      "37098725"
+    ],
+    "response_text": "Several prognostic biomarkers have been validated for HNSCC patient stratification. A cancer stem cell (CSC) gene expression signature, which classifies patients into high-risk and low-risk subgroups, was validated in four independent cohorts and is an independent prognostic factor for non-oropharyngeal HNSCC, especially in HPV-negative cases [PMID:36261806]. This signature was also associated with the prognosis of HNSCC patients who received radiotherapy [PMID:36261806]. A novel prognostic signature comprising six genes, developed by integrating single-cell and bulk transcriptomic data, was validated and robustly stratified patients into subgroups with distinct prognoses [PMID:36398480]. Additionally, a 172-gene signature (172GS) demonstrated superior prognostic accuracy compared to the TNM system in predicting overall survival, disease-free survival, distant metastasis-free survival, and loco-regional recurrence-free survival in HPV-negative HNSCC patients receiving radiotherapy [PMID:40252811]. Its independent prognostic value was confirmed by multivariable analysis [PMID:40252811]. Another novel and robust 8-gene prognostic signature, derived from essential genes, was developed and used to segregate patients into two clusters with distinct survival rates across multiple cohorts [PMID:37098725].\n\nReferences:\n- PMID:36261806\n- PMID:36398480\n- PMID:40252811\n- PMID:37098725",
+    "cited_pmids": [
+      "36261806",
+      "36398480",
+      "40252811",
+      "37098725"
+    ],
+    "valid_pmids": [
+      "36261806",
+      "36398480",
+      "40252811",
+      "37098725"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 5.845680475234985,
+    "error": null
+  },
+  {
+    "query_id": "Q10",
+    "category": "Biomarker",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "What prognostic biomarkers have been validated for HNSCC patient stratification?",
+    "retrieved_pmids": [
+      "36261806",
+      "36398480",
+      "36702014",
+      "40252811",
+      "37098725"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\nAbstract 1 is relevant because it describes the development and validation of a cancer stem cell (CSC) gene expression signature as an independent prognostic factor for HNSCC, particularly in non-oropharyngeal and HPV(-) cases [PMID:36261806].\nAbstract 2 is relevant because it details the development and validation of a novel six-gene prognostic signature for HNSCC, derived from integrating single-cell and bulk transcriptomic data [PMID:36398480].\nAbstract 4 is relevant because it evaluates and confirms the prognostic value of the 172-gene signature (172GS) in predicting survival outcomes for HPV-negative HNSCC patients receiving radiotherapy, demonstrating its superior accuracy compared to the TNM staging system [PMID:40252811].\nAbstract 5 is relevant because it describes the development of a novel 8-gene prognostic signature derived from essential genes in HNSCC, which was used to classify patients into subgroups with distinct survival rates across multiple cohorts [PMID:37098725].\n\nSTEP 2 \u2014 SYNTHESIS:\nSeveral prognostic biomarkers have been validated for HNSCC patient stratification. A cancer stem cell (CSC) gene expression signature, developed from genes correlated with CD44, MET, ALDH1A1, and BMI1, has been validated as an independent prognostic factor for HNSCC, especially in non-oropharyngeal HNSCC which mostly indicates HPV (-) status, and for patients receiving radiotherapy [PMID:36261806]. This CSC gene expression signature was validated using four independent cohorts [PMID:36261806]. Another novel prognostic signature comprising six genes was developed by integrating single-cell and bulk transcriptomic datasets and was further validated to stratify patients into subgroups with distinct prognoses [PMID:36398480]. Additionally, a 172-gene signature (172GS) has shown superior prognostic accuracy compared to the TNM system in predicting overall survival, disease-free survival, distant metastasis-free survival, and loco-regional recurrence-free survival in HPV-negative HNSCC patients treated with curative radiotherapy [PMID:40252811]. Multivariable analysis confirmed the independent prognostic value of the 172GS [PMID:40252811]. Furthermore, an 8-gene prognostic signature derived from essential genes in HNSCC has been developed and validated, segregating patients into two clusters with distinct survival rates across multiple cohorts [PMID:37098725].\n\nSTEP 3 \u2014 REFERENCES:\nPMID:36261806\nPMID:36398480\nPMID:37098725\nPMID:40252811",
+    "cited_pmids": [
+      "36261806",
+      "36398480",
+      "40252811",
+      "37098725"
+    ],
+    "valid_pmids": [
+      "36261806",
+      "36398480",
+      "40252811",
+      "37098725"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 7.580926895141602,
+    "error": null
+  },
+  {
+    "query_id": "Q11",
+    "category": "Immunotherapy",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "How effective is pembrolizumab and nivolumab for recurrent or metastatic HNSCC?",
+    "retrieved_pmids": [
+      "41634980",
+      "39138647",
+      "41385149",
+      "41428404",
+      "39370694"
+    ],
+    "response_text": "Pembrolizumab, with or without chemotherapy, is approved as a first-line treatment for recurrent and metastatic head and neck squamous cell carcinoma (HNSCC) based on programmed death ligand 1 (PD-L1) expression [PMID:39370694]. It is recommended for patients with CPS > 1 in metastatic HNSCC and has demonstrated survival benefits in PD-L1-positive recurrent/metastatic SCCHN [PMID:41634980, PMID:41428404].\n\nNivolumab has shown efficacy in the second-line setting for platinum-refractory disease [PMID:41634980, PMID:41428404]. Despite the benefits of these agents, most patients progress after immunotherapy [PMID:41634980].\n\nReferences\nPMID:39370694\nPMID:41428404\nPMID:41634980",
+    "cited_pmids": [
+      "39370694",
+      "41634980",
+      "41428404"
+    ],
+    "valid_pmids": [
+      "39370694",
+      "41634980",
+      "41428404"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 6.268226385116577,
+    "error": null
+  },
+  {
+    "query_id": "Q11",
+    "category": "Immunotherapy",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "How effective is pembrolizumab and nivolumab for recurrent or metastatic HNSCC?",
+    "retrieved_pmids": [
+      "41634980",
+      "39138647",
+      "41385149",
+      "41428404",
+      "39370694"
+    ],
+    "response_text": "Pembrolizumab, with or without chemotherapy, is recommended as a first-line treatment for metastatic HNSCC in patients with a Combined Positive Score (CPS) > 1 [PMID:41634980]. It has demonstrated survival benefits in PD-L1-positive recurrent/metastatic squamous cell carcinoma of the head and neck (SCCHN) as monotherapy or in combination with chemotherapy [PMID:41428404]. Pembrolizumab was approved as a first-line treatment for recurrent and malignant HNSCC, with or without chemotherapy, based on tumor and immune cell percentage of PD-L1 [PMID:39370694]. Nivolumab is used in the second-line setting for platinum-refractory metastatic HNSCC [PMID:41634980] and has shown efficacy in this setting for recurrent/metastatic SCCHN [PMID:41428404].\n\nReferences:\n- PMID:41634980\n- PMID:41428404\n- PMID:39370694",
+    "cited_pmids": [
+      "41634980",
+      "41428404",
+      "39370694"
+    ],
+    "valid_pmids": [
+      "41634980",
+      "41428404",
+      "39370694"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 5.749153137207031,
+    "error": null
+  },
+  {
+    "query_id": "Q11",
+    "category": "Immunotherapy",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "How effective is pembrolizumab and nivolumab for recurrent or metastatic HNSCC?",
+    "retrieved_pmids": [
+      "41634980",
+      "39138647",
+      "41385149",
+      "41428404",
+      "39370694"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 1 (PMID:41634980):** This abstract is relevant because it discusses the use of pembrolizumab plus or less chemotherapy for metastatic HNSCC and nivolumab in the second-line setting for platinum-refractory disease.\n*   **Abstract 4 (PMID:41428404):** This abstract is relevant as it explicitly states that current evidence supports the use of immune checkpoint inhibitors (ICIs) in the recurrent/metastatic (R/M) setting, and details the efficacy of pembrolizumab and nivolumab in this context.\n*   **Abstract 5 (PMID:39370694):** This abstract is relevant because it mentions pembrolizumab as a first-line treatment for recurrent and malignant HNSCC.\n\nSTEP 2 \u2014 SYNTHESIS:\nPembrolizumab, with or without chemotherapy, is recommended for metastatic head and neck squamous cell carcinoma (HNSCC) in patients with a Combined Positive Score (CPS) > 1 [PMID:41634980]. It has demonstrated survival benefits in PD-L1-positive recurrent/metastatic (R/M) squamous cell carcinoma of the head and neck (SCCHN) as monotherapy or in combination with chemotherapy [PMID:41428404]. Pembrolizumab has been approved as a first-line treatment for recurrent and malignant HNSCC, with or without chemotherapy, based on the tumor and immune cell percentage of programmed-death ligand 1 (PD-L1) [PMID:39370694]. Nivolumab is used in the second-line setting for platinum-refractory disease in HNSCC [PMID:41634980]. It has also shown efficacy in the second-line setting for R/M SCCHN [PMID:41428404].\n\nSTEP 3 \u2014 REFERENCES:\nPMID:39370694\nPMID:41428404\nPMID:41634980",
+    "cited_pmids": [
+      "41634980",
+      "41428404",
+      "39370694"
+    ],
+    "valid_pmids": [
+      "41634980",
+      "41428404",
+      "39370694"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 9.602643251419067,
+    "error": null
+  },
+  {
+    "query_id": "Q12",
+    "category": "Mechanism",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "What signaling pathways are dysregulated in HNSCC progression?",
+    "retrieved_pmids": [
+      "41025722",
+      "38869038",
+      "35456049",
+      "41574451",
+      "35081970"
+    ],
+    "response_text": "Multiple signaling pathways are dysregulated in head and neck squamous cell carcinoma (HNSCC) progression. Key oncogenic cascades contributing to tumor progression, invasion, and therapeutic resistance include epidermal growth factor receptor/phosphatidylinositol 3-kinase/AKT/mTOR, mitogen-activated protein kinase/extracellular signal-regulated kinase, Wnt/\u03b2-catenin, NOTCH, the p53 gene, and vascular endothelial growth factor [PMID:41025722]. Alterations in the Hippo signaling pathway, leading to persistent YAP and TAZ activation, are also major oncogenic drivers contributing to HNSCC development [PMID:35456049]. The abnormality of calcium signaling is related to the initiation and progression of HNSCC [PMID:41574451]. Aberrant mesenchymal-epithelial transition factor (c-MET) signal transduction favors HNSCC progression by stimulating proliferation, motility, invasiveness, morphogenesis, and angiogenesis [PMID:35081970]. Additionally, five dysregulated signaling pathways have been identified in circulating tumor cells (CTCs) associated with metastatic HNSCC patients [PMID:38869038].\n\nReferences:\nPMID:41025722\nPMID:38869038\nPMID:35456049\nPMID:41574451\nPMID:35081970",
+    "cited_pmids": [
+      "41025722",
+      "35456049",
+      "41574451",
+      "35081970",
+      "38869038"
+    ],
+    "valid_pmids": [
+      "41025722",
+      "35456049",
+      "41574451",
+      "35081970",
+      "38869038"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 8.117281436920166,
+    "error": null
+  },
+  {
+    "query_id": "Q12",
+    "category": "Mechanism",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "What signaling pathways are dysregulated in HNSCC progression?",
+    "retrieved_pmids": [
+      "41025722",
+      "38869038",
+      "35456049",
+      "41574451",
+      "35081970"
+    ],
+    "response_text": "Multiple signaling pathways are dysregulated in head and neck squamous cell carcinoma (HNSCC) progression. Key oncogenic cascades contributing to tumor progression, invasion, and therapeutic resistance include epidermal growth factor receptor/phosphatidylinositol 3-kinase/AKT/mTOR, mitogen-activated protein kinase/extracellular signal-regulated kinase, Wnt/\u03b2-catenin, NOTCH, the p53 gene, and vascular endothelial growth factor [PMID:41025722]. Five dysregulated signaling pathways have been identified in circulating tumor cells (CTCs) associated with metastatic HNSCC [PMID:38869038]. Genomic alterations in the Hippo signaling pathway lead to persistent YAP and TAZ activation, acting as major oncogenic drivers in HNSCC development [PMID:35456049]. The abnormality of calcium signaling is also related to the initiation and progression of HNSCC [PMID:41574451]. Furthermore, aberrant c-MET/HGF signal transduction favors HNSCC progression by stimulating proliferation, motility, invasiveness, morphogenesis, and angiogenesis [PMID:35081970]. The c-MET pathway acts on several downstream effectors, including phospholipase C gamma (PLC\u03b3), cellular Src kinase (c-Src), phosphotidylinsitol-3-OH kinase (PI3K), alpha serine/threonine-protein kinase (Akt), mitogen-activated protein kinase (MAPK), and wingless-related integration site (Wnt) pathways [PMID:35081970].\n\nReferences:\n- PMID:41025722\n- PMID:38869038\n- PMID:35456049\n- PMID:41574451\n- PMID:35081970",
+    "cited_pmids": [
+      "41025722",
+      "38869038",
+      "35456049",
+      "41574451",
+      "35081970"
+    ],
+    "valid_pmids": [
+      "41025722",
+      "38869038",
+      "35456049",
+      "41574451",
+      "35081970"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 10.283499479293823,
+    "error": null
+  },
+  {
+    "query_id": "Q12",
+    "category": "Mechanism",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "What signaling pathways are dysregulated in HNSCC progression?",
+    "retrieved_pmids": [
+      "41025722",
+      "38869038",
+      "35456049",
+      "41574451",
+      "35081970"
+    ],
+    "response_text": "Multiple signaling pathways are dysregulated in head and neck squamous cell carcinoma (HNSCC) progression [PMID:41025722]. Key oncogenic cascades contributing to tumor progression, invasion, and therapeutic resistance include epidermal growth factor receptor/phosphatidylinositol 3-kinase/AKT/mTOR, mitogen-activated protein kinase/extracellular signal-regulated kinase, Wnt/\u03b2-catenin, NOTCH, the p53 gene, and vascular endothelial growth factor pathways [PMID:41025722].\n\nThe Hippo signaling pathway also shows genomic alterations leading to persistent YAP and TAZ activation, which are major oncogenic drivers and promote HNSCC initiation and progression [PMID:35456049]. Additionally, abnormalities in calcium signaling are related to the initiation and progression of HNSCC [PMID:41574451]. Aberrant mesenchymal-epithelial transition factor (c-MET) signal transduction favors HNSCC progression by stimulating proliferation, motility, invasiveness, morphogenesis, and angiogenesis [PMID:35081970]. The c-MET pathway acts on downstream effectors such as phospholipase C gamma (PLC\u03b3), cellular Src kinase (c-Src), phosphotidylinsitol-3-OH kinase (PI3K), alpha serine/threonine-protein kinase (Akt), mitogen-activated protein kinase (MAPK), and wingless-related integration site (Wnt) pathways [PMID:35081970]. Furthermore, five dysregulated signaling pathways have been identified in circulating tumor cells associated with metastatic HNSCC patients [PMID:38869038].\n\nReferences\nPMID:41025722\nPMID:38869038\nPMID:35456049\nPMID:41574451\nPMID:35081970",
+    "cited_pmids": [
+      "41025722",
+      "35456049",
+      "41574451",
+      "35081970",
+      "38869038"
+    ],
+    "valid_pmids": [
+      "41025722",
+      "35456049",
+      "41574451",
+      "35081970",
+      "38869038"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 10.727075815200806,
+    "error": null
+  },
+  {
+    "query_id": "Q13",
+    "category": "TME",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "How does the immune microenvironment differ between HPV+ and HPV- HNSCC?",
+    "retrieved_pmids": [
+      "37828063",
+      "38545800",
+      "37376596",
+      "35030304",
+      "34655477"
+    ],
+    "response_text": "The immune microenvironment (TME) of HPV-positive (HPV+) head and neck squamous cell carcinoma (HNSCC) is distinct and heterogeneous compared to HPV-negative (HPV-) HNSCC [PMID:37828063, PMID:37376596, PMID:35030304]. HPV+ HNSCC exhibits a more inflamed and immunologically \"hot\" TME, characterized by more immune infiltration, higher levels of T-cell activation, and higher levels of immunoregulation, in contrast to the more immunologically \"cold\" HPV- TME [PMID:37376596, PMID:35030304].\n\nSpecifically, HPV+ HNSCC displays increased B cells, plasma cells, and CD4+ effector T cells, alongside decreased macrophages and mast cells [PMID:37828063]. Plasma cells predict improved survival, while macrophages are associated with a survival disadvantage [PMID:37828063]. In HPV+ oropharyngeal squamous cell carcinoma (OPSCC), there is an enrichment of high endothelial cells and adaptive immune cells, whereas HPV- OPSCC shows enrichment of fibroblasts and capillary endothelial cells [PMID:34655477]. HPV+ OPSCCs also demonstrate elevated immune activities, promoting adaptive immune response and suppressing activities related to extracellular matrix organization [PMID:34655477]. The antigenic landscape in most HPV+ HNSCC tumors is extensively targeted by both the humoral and cellular arms of the adaptive immune system, extending beyond the classical HPV oncoproteins E6/7 [PMID:37376596]. Transcriptional analysis of B and plasma cells in HPV+ HNSCC revealed associations between the B-cell surface marker FCER2 and improved survival, with FCER2+ B cells contributing to antitumor immunity [PMID:37828063].\n\nReferences\nPMID:37828063\nPMID:37376596\nPMID:35030304\nPMID:34655477",
+    "cited_pmids": [
+      "37828063",
+      "37376596",
+      "35030304",
+      "34655477"
+    ],
+    "valid_pmids": [
+      "37828063",
+      "37376596",
+      "35030304",
+      "34655477"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 9.681825160980225,
+    "error": null
+  },
+  {
+    "query_id": "Q13",
+    "category": "TME",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "How does the immune microenvironment differ between HPV+ and HPV- HNSCC?",
+    "retrieved_pmids": [
+      "37828063",
+      "38545800",
+      "37376596",
+      "35030304",
+      "34655477"
+    ],
+    "response_text": "The immune microenvironment (TME) of HPV-positive (HPV+) head and neck squamous cell carcinoma (HNSCC) is distinct from that of HPV-negative (HPV-) HNSCC [PMID:37828063, PMID:37376596, PMID:35030304]. HPV+ HNSCC exhibits a more inflamed and immunologically \"hot\" TME, characterized by more immune infiltration, higher levels of T-cell activation, and higher levels of immunoregulation compared to the more immunologically \"cold\" HPV- TME [PMID:37376596, PMID:35030304].\n\nSpecifically, HPV+ HNSCC displays increased B cells, plasma cells, and CD4+ effector T cells, while macrophages and mast cells are decreased [PMID:37828063]. Plasma cells predict improved survival, and macrophages are associated with a survival disadvantage [PMID:37828063]. In HPV+ oropharyngeal squamous cell carcinoma (OPSCC), there is an enrichment of high endothelial cells and adaptive immune cells [PMID:34655477]. Conversely, HPV- OPSCCs show enrichment of fibroblasts and capillary endothelial cells [PMID:34655477]. HPV+ OPSCCs also have elevated immune activities, promoting adaptive immune response and suppressing activities related to extracellular matrix organization [PMID:34655477]. The antigenic landscape in most HPV+ HNSCC tumors is extensively targeted by both the humoral and cellular arms of the adaptive immune system [PMID:37376596]. FCER2+ B cells contribute to antitumor immunity in HPV+ tumors [PMID:37828063].\n\nReferences:\n- PMID:37828063\n- PMID:38545800\n- PMID:37376596\n- PMID:35030304\n- PMID:34655477",
+    "cited_pmids": [
+      "37828063",
+      "37376596",
+      "35030304",
+      "34655477",
+      "38545800"
+    ],
+    "valid_pmids": [
+      "37828063",
+      "37376596",
+      "35030304",
+      "34655477",
+      "38545800"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 9.661542892456055,
+    "error": null
+  },
+  {
+    "query_id": "Q13",
+    "category": "TME",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "How does the immune microenvironment differ between HPV+ and HPV- HNSCC?",
+    "retrieved_pmids": [
+      "37828063",
+      "38545800",
+      "37376596",
+      "35030304",
+      "34655477"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 1 (PMID:37828063):** This abstract directly characterizes the immune context in HPV+ and HPV- HNSCC, detailing specific immune cell populations and their association with survival, as well as differential gene expression.\n*   **Abstract 3 (PMID:37376596):** This abstract states that HPV+ HNSCC exhibits an immune microenvironment that is more inflamed and distinct from HPV-negative HNSCC, making it relevant for general differences.\n*   **Abstract 4 (PMID:35030304):** This abstract explicitly discusses the profound immunological differences between HPV+ and HPV- HNSCC, characterizing the HPV+ TIME as \"hot\" with more immune infiltration, T-cell activation, and immunoregulation compared to the \"cold\" HPV- TIME.\n*   **Abstract 5 (PMID:34655477):** This abstract comprehensively determines TME infiltration patterns in HPV+ and HPV- OPSCC (a subtype of HNSCC), identifying specific cell enrichments and differences in immune activities.\n\nSTEP 2 \u2014 SYNTHESIS:\nThe immune microenvironment (TME) of human papillomavirus-positive (HPV+) head and neck squamous cell carcinoma (HNSCC) is strikingly distinct from that of HPV-negative (HPV-) HNSCC [PMID:35030304]. HPV+ HNSCC exhibits a more inflamed immune microenvironment [PMID:37376596] and is characterized as immunologically \"hot,\" with increased immune infiltration, higher levels of T-cell activation, and elevated immunoregulation [PMID:35030304]. In contrast, HPV- HNSCC is considered immunologically \"cold\" [PMID:35030304].\n\nSpecific cellular differences include:\n*   **Increased in HPV+ HNSCC:** B cells, plasma cells, and CD4+ effector T cells are increased in HPV+ HNSCC [PMID:37828063]. HPV+ oropharyngeal squamous cell carcinomas (OPSCCs) show enrichment of high endothelial cells and adaptive immune cells [PMID:34655477]. Plasma cells predict improved survival [PMID:37828063].\n*   **Decreased in HPV+ HNSCC (or enriched in HPV- HNSCC):** Macrophages and mast cells are decreased in HPV+ HNSCC [PMID:37828063]. Macrophages are associated with a survival disadvantage [PMID:37828063]. HPV- OPSCCs show enrichment of fibroblasts and capillary endothelial cells [PMID:34655477].\n\nFunctionally, HPV+ HNSCCs have elevated immune activities, promoting adaptive immune response and suppressing activities related to extracellular matrix organization [PMID:34655477]. Differential expressed genes between HPV+ and HPV- HNSCC are focused on cytokine-related activity [PMID:37828063]. Furthermore, FCER2+ B cells contribute to antitumor immunity in HPV+ tumors [PMID:37828063].\n\nSTEP 3 \u2014 REFERENCES:\nPMID:37828063\nPMID:37376596\nPMID:35030304\nPMID:34655477",
+    "cited_pmids": [
+      "37828063",
+      "37376596",
+      "35030304",
+      "34655477"
+    ],
+    "valid_pmids": [
+      "37828063",
+      "37376596",
+      "35030304",
+      "34655477"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 10.736167430877686,
+    "error": null
+  },
+  {
+    "query_id": "Q14",
+    "category": "ML/AI",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "What machine learning approaches have been applied to HNSCC outcome prediction?",
+    "retrieved_pmids": [
+      "36279655",
+      "39749326",
+      "40121767",
+      "39910672",
+      "40907211"
+    ],
+    "response_text": "Machine learning approaches applied to HNSCC outcome prediction include various tree-based algorithms such as voting ensemble, Light GBM, XGBoost, Random Forest, and Extreme Random Trees for oropharyngeal squamous cell carcinoma (OPSCC) risk stratification and overall survival prediction [PMID:36279655]. For general HNSCC prognosis and drug response, algorithms like CoxBoost, Elastic Network (Enet), Generalized Boosted Regression Modeling (GBM), Lasso, Ridge, Partial Least Squares Regression for Cox (plsRcox), Random Survival Forest (RSF), Stepwise Cox, Supervised Principal Components (SuperPC), and Survival Support Vector Machine (survival-SVM) have been utilized [PMID:39749326]. TabNet, a deep learning algorithm, along with XGBoost and voting ensemble, has been used to estimate overall survival in HNSCC patients [PMID:40121767]. Multi-omics consensus clustering algorithms have been applied to identify molecular subtypes of HNSCC, and the Elastic Net model was used to construct a prognostic signature [PMID:39910672]. The Elastic Net model has also been employed to predict overall survival in recurrent or metastatic HNSCC [PMID:40907211]. Additionally, explainability frameworks such as Local Interpretable Model Agnostic Explanations (LIME) and SHapley Additive Explanation (SHAP) have been used to interpret the predictions of these machine learning models [PMID:36279655, PMID:40121767].\n\nReferences\nPMID:36279655\nPMID:39749326\nPMID:40121767\nPMID:39910672\nPMID:40907211",
+    "cited_pmids": [
+      "36279655",
+      "39749326",
+      "40121767",
+      "39910672",
+      "40907211"
+    ],
+    "valid_pmids": [
+      "36279655",
+      "39749326",
+      "40121767",
+      "39910672",
+      "40907211"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 10.944450855255127,
+    "error": null
+  },
+  {
+    "query_id": "Q14",
+    "category": "ML/AI",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "What machine learning approaches have been applied to HNSCC outcome prediction?",
+    "retrieved_pmids": [
+      "36279655",
+      "39749326",
+      "40121767",
+      "39910672",
+      "40907211"
+    ],
+    "response_text": "Various machine learning approaches have been applied to HNSCC outcome prediction. These include tree-based algorithms such as voting ensemble, Light GBM, XGBoost, Random Forest, and Extreme Random Trees for predicting overall survival in oropharyngeal squamous cell carcinoma (OPSCC) [PMID:36279655]. For HNSCC prognosis and drug response, ten algorithms were utilized: CoxBoost, elastic network (Enet), generalized boosted regression modeling (GBM), Lasso, Ridge, partial least squares regression for Cox (plsRcox), random survival forest (RSF), stepwise Cox, supervised principal components (SuperPC), and survival support vector machine (survival-SVM), along with 81 algorithm combinations [PMID:39749326].\n\nOther models used for estimating overall survival in HNSCC patients include TabNet, XGBoost, and voting ensemble [PMID:40121767]. For identifying molecular subtypes and constructing a prognostic model for HNSCC, 10 multi-omics consensus clustering algorithms and 101 algorithms were used, with the Elastic Net model specifically mentioned for selecting prognosis-related genes [PMID:39910672]. The Elastic Net model has also been shown to effectively predict overall survival in recurrent or metastatic HNSCC by bridging surrogate efficacy endpoints and median OS [PMID:40907211].\n\nReferences:\n- PMID:36279655\n- PMID:39749326\n- PMID:40121767\n- PMID:39910672\n- PMID:40907211",
+    "cited_pmids": [
+      "36279655",
+      "39749326",
+      "40121767",
+      "39910672",
+      "40907211"
+    ],
+    "valid_pmids": [
+      "36279655",
+      "39749326",
+      "40121767",
+      "39910672",
+      "40907211"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 5.515334844589233,
+    "error": null
+  },
+  {
+    "query_id": "Q14",
+    "category": "ML/AI",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "What machine learning approaches have been applied to HNSCC outcome prediction?",
+    "retrieved_pmids": [
+      "36279655",
+      "39749326",
+      "40121767",
+      "39910672",
+      "40907211"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 1 (PMID:36279655):** This abstract is relevant because it describes the application of machine learning algorithms, specifically tree-based variants like voting ensemble, Light GBM, XGBoost, Random Forest, and Extreme Random Trees, for risk stratification and overall survival prediction in oropharyngeal squamous cell carcinoma (OPSCC), a subtype of HNSCC [PMID:36279655]. It also mentions LIME and SHAP for interpretability [PMID:36279655].\n*   **Abstract 2 (PMID:39749326):** This abstract is relevant as it details the development of a machine learning-derived prognostic model (MLDPM) for HNSCC prognosis and drug response, utilizing ten machine learning algorithms and their combinations, including CoxBoost, elastic network, GBM, Lasso, Ridge, plsRcox, RSF, stepwise Cox, SuperPC, and survival-SVM [PMID:39749326].\n*   **Abstract 3 (PMID:40121767):** This abstract is relevant because it focuses on building a machine learning model to estimate overall survival in HNSCC patients, comparing TabNet, XGBoost, and voting ensemble algorithms [PMID:40121767]. It also highlights the use of LIME and SHAP for explainability and interpretability [PMID:40121767].\n*   **Abstract 4 (PMID:39910672):** This abstract is relevant as it describes the use of multiple machine learning-based integrations of multi-omics data to identify molecular subtypes and construct a prognostic model for HNSCC, employing 10 multi-omics consensus clustering algorithms and the Elastic Net model for a prognostic signature [PMID:39910672].\n*   **Abstract 5 (PMID:40907211):** This abstract is relevant because it aims to develop a predictive model for overall survival in recurrent or metastatic HNSCC using five machine learning models, with the Elastic Net model demonstrating strong performance [PMID:40907211].\n\nSTEP 2 \u2014 SYNTHESIS:\nVarious machine learning approaches have been applied to HNSCC outcome prediction. These include tree-based algorithms such as voting ensemble, Light GBM, XGBoost, Random Forest, and Extreme Random Trees for risk stratification in oropharyngeal cancer [PMID:36279655]. For HNSCC prognosis and drug response, a machine learning-derived prognostic model utilized algorithms like CoxBoost, elastic network (Enet), generalized boosted regression modeling (GBM), Lasso, Ridge, partial least squares regression for Cox (plsRcox), random survival forest (RSF), stepwise Cox, supervised principal components (SuperPC), and survival support vector machine (survival-SVM), often in combinations [PMID:39749326]. Other studies for HNSCC overall survival prediction have compared deep learning algorithms like TabNet with extreme gradient boosting (XGBoost) and voting ensemble [PMID:40121767]. Furthermore, multi-omics data integration for HNSCC prognostic modeling has involved 10 multi-omics consensus clustering algorithms and the Elastic Net model [PMID:39910672]. The Elastic Net model has also been used to predict overall survival in recurrent or metastatic HNSCC by bridging surrogate efficacy endpoints and patient characteristics [PMID:40907211]. To provide explanations and interpretations of these models, frameworks such as Local Interpretable Model Agnostic Explanations (LIME) and SHapley Additive Explanation (SHAP) have been employed [PMID:36279655, PMID:40121767].\n\nSTEP 3 \u2014 REFERENCES:\nPMID:36279655\nPMID:39749326\nPMID:39910672\nPMID:40121767\nPMID:40907211",
+    "cited_pmids": [
+      "36279655",
+      "39749326",
+      "40121767",
+      "39910672",
+      "40907211"
+    ],
+    "valid_pmids": [
+      "36279655",
+      "39749326",
+      "40121767",
+      "39910672",
+      "40907211"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 15.326549291610718,
+    "error": null
+  },
+  {
+    "query_id": "Q15",
+    "category": "Mutations",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "What is the role of TP53 mutations in head and neck cancer prognosis?",
+    "retrieved_pmids": [
+      "37501500",
+      "37024846",
+      "40333905",
+      "37449494",
+      "39727015"
+    ],
+    "response_text": "TP53 mutations serve as an independent prognostic factor in head and neck squamous cell carcinoma (HNSCC) [PMID:37501500]. These mutations are associated with poor prognosis and reduced survival in HNSCC patients [PMID:40333905, PMID:39727015]. Patients with TP53 mutations exhibit shorter progression-free survival and overall survival compared to those with TP53 wild-type [PMID:39727015]. This poor survival is particularly evident in HNSCC patients treated with immunotherapy [PMID:39727015]. High-risk-of-death TP53 mutations predict poor primary treatment response, with an odds ratio of 3.301 for stable or progressive disease compared to wild-type cases [PMID:37501500]. TP53 mutations can also facilitate tumor recurrence [PMID:37449494].\n\nIn HPV-negative hypopharyngeal carcinoma patients, TP53 disruptive mutations are associated with reduced survival, while non-disruptive mutations are linked to a significantly better clinical outcome [PMID:37024846]. However, in HPV-negative patients, p53 and TP53 mutations were not generally associated with prognosis [PMID:37024846]. TP53 mutations impact protein and miRNA expression, development, survival, and progression of HNSCC patients [PMID:40333905]. Reduced hsa-mir-133b expression in TP53-mutated samples also significantly affects patient survival in HNSCC [PMID:40333905].\n\nReferences\nPMID:37501500\nPMID:37024846\nPMID:40333905\nPMID:37449494\nPMID:39727015",
+    "cited_pmids": [
+      "37501500",
+      "40333905",
+      "39727015",
+      "37449494",
+      "37024846"
+    ],
+    "valid_pmids": [
+      "37501500",
+      "40333905",
+      "39727015",
+      "37449494",
+      "37024846"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 9.231826305389404,
+    "error": null
+  },
+  {
+    "query_id": "Q15",
+    "category": "Mutations",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "What is the role of TP53 mutations in head and neck cancer prognosis?",
+    "retrieved_pmids": [
+      "37501500",
+      "37024846",
+      "40333905",
+      "37449494",
+      "39727015"
+    ],
+    "response_text": "TP53 mutations are an independent prognostic factor in head and neck squamous cell carcinoma (HNSCC) [PMID:37501500]. These mutations are associated with a poor prognosis, shorter progression-free survival, and poor overall survival in HNSCC patients [PMID:40333905, PMID:39727015]. Specifically, cases harboring high-risk-of-death TP53 mutations have an odds ratio of 3.301 for stable or progressive disease compared to wild-type cases [PMID:37501500]. TP53 mutations are linked to aggressive clinical characteristics and poor survival, particularly in HNSCC patients treated with immunotherapy [PMID:39727015].\n\nIn HPV-negative hypopharyngeal carcinoma patients, TP53 disruptive mutations are associated with reduced survival, while non-disruptive mutations show a significantly better clinical outcome than disruptive mutations [PMID:37024846]. TP53 mutations can also increase TP53 expression levels and reduce hsa-mir-133b expression, which significantly affects patient survival in HNSCC [PMID:40333905]. Beyond inhibiting tumor suppression, p53 mutations can provide gain-of-function effects that facilitate tumor recurrence [PMID:37449494].\n\nReferences:\n- PMID:37501500\n- PMID:37024846\n- PMID:40333905\n- PMID:37449494\n- PMID:39727015",
+    "cited_pmids": [
+      "37501500",
+      "40333905",
+      "39727015",
+      "37024846",
+      "37449494"
+    ],
+    "valid_pmids": [
+      "37501500",
+      "40333905",
+      "39727015",
+      "37024846",
+      "37449494"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 9.901029109954834,
+    "error": null
+  },
+  {
+    "query_id": "Q15",
+    "category": "Mutations",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "What is the role of TP53 mutations in head and neck cancer prognosis?",
+    "retrieved_pmids": [
+      "37501500",
+      "37024846",
+      "40333905",
+      "37449494",
+      "39727015"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 1 (PMID:37501500):** This abstract is relevant because it investigates the role of TP53 mutations as a predictive biomarker of treatment outcomes and an independent prognostic factor in HNSCC, specifically linking high-risk mutations to poor primary treatment response.\n*   **Abstract 2 (PMID:37024846):** This abstract is relevant as it evaluates the prognostic significance of p53 and TP53 mutations in HPV-negative hypopharyngeal carcinoma patients, detailing their impact on overall survival and recurrence-free survival.\n*   **Abstract 3 (PMID:40333905):** This abstract is relevant because it directly states that TP53 mutations are associated with a poor prognosis and affect patient survival and progression in HNSCC.\n*   **Abstract 4 (PMID:37449494):** This abstract is relevant as it discusses the clinical relevance of p53 mutations in HNSCC, noting that mutant p53 facilitates tumor recurrence.\n*   **Abstract 5 (PMID:39727015):** This abstract is highly relevant as it evaluates the clinical impact of TP53 mutations on patient outcomes, finding associations with aggressive clinical characteristics, shorter progression-free survival, and poor overall survival in HNSCC patients.\n\nSTEP 2 \u2014 SYNTHESIS:\nTP53 mutations play a significant role in the prognosis of head and neck squamous cell carcinoma (HNSCC) patients. These mutations are frequently associated with a poor prognosis and significantly affect patient survival and progression in HNSCC [PMID:40333905]. Patients with TP53 mutations exhibit shorter progression-free survival and poor overall survival compared to those with TP53 wild-type [PMID:39727015]. Specifically, high-risk-of-death TP53 mutations predict a poor primary treatment response, leading to stable or progressive disease in HNSCC patients [PMID:37501500]. Mutant p53 can also facilitate tumor recurrence [PMID:37449494]. The clinical impact of TP53 mutations includes an association with aggressive clinical characteristics and poor survival, particularly in HNSCC patients treated with immunotherapy [PMID:39727015]. In HPV-negative hypopharyngeal carcinoma patients, while p53 and TP53 mutations generally do not significantly impact survival, TP53 disruptive mutations are associated with reduced survival [PMID:37024846]. Certain mutations, such as G105C, Q136H, and R280G, which stabilize the TP53 structure and alter its interaction dynamics with substrates, may serve as novel potential diagnostic biomarkers for patient stratification and personalized treatment strategies [PMID:40333905].\n\nSTEP 3 \u2014 REFERENCES:\nPMID:37501500\nPMID:37024846\nPMID:40333905\nPMID:37449494\nPMID:39727015",
+    "cited_pmids": [
+      "37501500",
+      "37024846",
+      "40333905",
+      "37449494",
+      "39727015"
+    ],
+    "valid_pmids": [
+      "37501500",
+      "37024846",
+      "40333905",
+      "37449494",
+      "39727015"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 11.589529991149902,
+    "error": null
+  },
+  {
+    "query_id": "Q16",
+    "category": "Liquid biopsy",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "How is liquid biopsy or ctDNA used in HNSCC monitoring?",
+    "retrieved_pmids": [
+      "36966499",
+      "41342981",
+      "37977279",
+      "41898706",
+      "41435530"
+    ],
+    "response_text": "Liquid biopsy strategies, particularly the analysis of circulating tumor DNA (ctDNA), are used for real-time, non-invasive molecular monitoring and to capture real-time tumor dynamics in head and neck squamous cell carcinoma (HNSCC) [PMID:41342981, PMID:41898706]. ctDNA serves as a promising biomarker for monitoring disease burden and identifying patients at high risk of recurrence [PMID:36966499]. It is relevant for prognosis, assessing treatment response, and detecting minimal residual disease (MRD) [PMID:41342981, PMID:41435530].\n\nSpecifically, viral ctDNA monitoring has demonstrated clinical potential in identifying HPV-positive oropharyngeal carcinoma patients at higher risk of recurrence [PMID:36966499]. ctDNA, particularly HPV-related ctDNA, is approaching clinical validation for MRD detection and recurrence surveillance in HPV-positive HNSCC [PMID:41898706]. For HPV-negative HNSCC, accumulating evidence supports a potential diagnostic value of ctDNA dynamics [PMID:36966499].\n\nctDNA also helps assess minimal residual disease, monitor systemic treatment response, and identify therapeutic targets [PMID:41435530]. It shows strong potential for response assessment and post-treatment monitoring, especially in HPV-related disease [PMID:41435530]. Furthermore, ctDNA analysis may guide the (de)escalation of surgical interventions and adaptation of radiotherapy dosage in both definitive and adjuvant settings [PMID:36966499]. It can also identify in vivo molecular genotypes, complementing tumor tissue analysis in cancer management [PMID:37977279].\n\nReferences:\nPMID:36966499\nPMID:37977279\nPMID:41342981\nPMID:41435530\nPMID:41898706",
+    "cited_pmids": [
+      "41342981",
+      "41898706",
+      "36966499",
+      "41435530",
+      "37977279"
+    ],
+    "valid_pmids": [
+      "41342981",
+      "41898706",
+      "36966499",
+      "41435530",
+      "37977279"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 8.827573537826538,
+    "error": null
+  },
+  {
+    "query_id": "Q16",
+    "category": "Liquid biopsy",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "How is liquid biopsy or ctDNA used in HNSCC monitoring?",
+    "retrieved_pmids": [
+      "36966499",
+      "41342981",
+      "37977279",
+      "41898706",
+      "41435530"
+    ],
+    "response_text": "Liquid biopsy strategies, particularly the analysis of circulating tumor DNA (ctDNA), have emerged as promising, minimally invasive biomarkers to capture real-time tumor dynamics in head and neck squamous cell carcinoma (HNSCC) [PMID:41342981]. ctDNA is used for monitoring disease burden and identifying patients at high risk of recurrence [PMID:36966499]. It can improve early detection, assess minimal residual disease (MRD), monitor systemic treatment response, and detect relapse [PMID:41435530].\n\nFor HPV-positive HNSCC, minimal residual disease monitoring through viral ctDNA has demonstrated clinical potential in identifying patients at higher risk of recurrence [PMID:36966499]. HPV-related ctDNA is approaching clinical validation for MRD detection and recurrence surveillance in HPV-positive HNSCC [PMID:41898706]. In HPV-negative HNSCC, accumulating evidence supports a potential diagnostic value of ctDNA dynamics [PMID:36966499].\n\nBeyond detection, ctDNA analysis may be a valuable tool in guiding the (de)escalation of surgical interventions and adaptation of radiotherapy dosage in both definitive and adjuvant settings [PMID:36966499]. It also has clinical relevance in prognosis and treatment response [PMID:41342981]. ctDNA complements tumor tissue analysis by identifying in vivo molecular genotypes [PMID:37977279].\n\nReferences:\n- PMID:36966499\n- PMID:37977279\n- PMID:41342981\n- PMID:41435530\n- PMID:41898706",
+    "cited_pmids": [
+      "41342981",
+      "36966499",
+      "41435530",
+      "41898706",
+      "37977279"
+    ],
+    "valid_pmids": [
+      "41342981",
+      "36966499",
+      "41435530",
+      "41898706",
+      "37977279"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 8.493911504745483,
+    "error": null
+  },
+  {
+    "query_id": "Q16",
+    "category": "Liquid biopsy",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "How is liquid biopsy or ctDNA used in HNSCC monitoring?",
+    "retrieved_pmids": [
+      "36966499",
+      "41342981",
+      "37977279",
+      "41898706",
+      "41435530"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 1 (PMID:36966499):** This abstract is highly relevant as it explicitly states that ctDNA is a promising liquid biomarker for monitoring disease burden, identifying patients at high risk of recurrence, and for minimal residual disease (MRD) monitoring in HPV+ oropharyngeal carcinoma patients. It also mentions its potential diagnostic value in HPV-negative HNSCC and its role in guiding treatment adaptations.\n*   **Abstract 2 (PMID:41342981):** This abstract is relevant because it highlights liquid biopsy strategies, specifically ctDNA and CTCs, as promising minimally invasive biomarkers to capture real-time tumor dynamics. It also addresses their clinical relevance in detecting minimal residual disease and monitoring treatment response in HNSCC.\n*   **Abstract 3 (PMID:37977279):** This abstract is relevant as it discusses ctDNA's potential to track response to treatment in patients after tumor excision, complementing tumor tissue analysis in cancer management.\n*   **Abstract 4 (PMID:41898706):** This abstract is highly relevant, focusing on the evolving roles of ctDNA, exosomes, and CTCs in real-time, non-invasive molecular monitoring. It specifically notes that ctDNA, especially HPV-related ctDNA, is nearing clinical validation for MRD detection and recurrence surveillance in HPV-positive HNSCC, and discusses its role in transitioning to molecularly guided precision oncology.\n*   **Abstract 5 (PMID:41435530):** This abstract is highly relevant as it states that ctDNA is a minimally invasive biomarker capable of assessing minimal residual disease, monitoring systemic treatment response, and detecting relapse. It emphasizes ctDNA's strong potential for response assessment and post-treatment monitoring, particularly in HPV-related disease.\n\nSTEP 2 \u2014 SYNTHESIS:\nLiquid biopsy strategies, particularly the analysis of circulating tumor DNA (ctDNA), are utilized in head and neck squamous cell carcinoma (HNSCC) monitoring as promising, minimally invasive biomarkers to capture real-time tumor dynamics [PMID:41342981]. ctDNA is considered a promising liquid biomarker for monitoring disease burden and identifying patients at high risk of recurrence [PMID:36966499].\n\nSpecific uses of liquid biopsy or ctDNA in HNSCC monitoring include:\n*   **Minimal Residual Disease (MRD) Detection:** ctDNA is able to assess minimal residual disease [PMID:41435530]. The clinical potential of minimal residual disease monitoring through viral ctDNA has been demonstrated in identifying HPV-positive oropharyngeal carcinoma patients at higher risk of recurrence [PMID:36966499]. ctDNA, especially HPV-related ctDNA, is approaching clinical validation for MRD detection and recurrence surveillance in HPV-positive HNSCC [PMID:41898706]. Conventional anatomical imaging lacks sufficient sensitivity for MRD detection, highlighting the role of liquid biopsies [PMID:41898706].\n*   **Monitoring Treatment Response:** ctDNA can monitor systemic treatment response [PMID:41435530] and track response to treatment in patients after tumor excision [PMID:37977279]. It shows strong potential for response assessment and post-treatment monitoring [PMID:41435530].\n*   **Recurrence Surveillance and Relapse Detection:** ctDNA is used for recurrence surveillance [PMID:41898706] and relapse detection [PMID:41435530], helping to identify patients at high risk of recurrence [PMID:36966499].\n*   **Guiding Treatment Decisions:** ctDNA analysis may be a valuable tool in guiding (de)escalation of surgical interventions and adaptation in radiotherapy dosage in both definitive and adjuvant settings [PMID:36966499]. This aims to transition HNSCC management from reactive, anatomy-based surveillance to proactive, molecularly guided precision oncology [PMID:41898706].\n*   **HPV Status Stratification:** The utility of ctDNA varies based on HPV status [PMID",
+    "cited_pmids": [
+      "36966499",
+      "41342981",
+      "37977279",
+      "41898706",
+      "41435530"
+    ],
+    "valid_pmids": [
+      "36966499",
+      "41342981",
+      "37977279",
+      "41898706",
+      "41435530"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 16.13166570663452,
+    "error": null
+  },
+  {
+    "query_id": "Q17",
+    "category": "Transcriptomics",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "What are the prognostic gene expression signatures developed for HNSCC?",
+    "retrieved_pmids": [
+      "37098725",
+      "36261806",
+      "36398480",
+      "35361159",
+      "40252811"
+    ],
+    "response_text": "Several prognostic gene expression signatures have been developed for head and neck squamous cell carcinoma (HNSCC). One study developed an 8-gene prognostic signature derived from essential genes, which segregates patients into two clusters with distinct survival rates [PMID:37098725]. Another study developed expression signatures of cancer stem cell (CSC) biomarker genes, which are associated with HNSCC prognosis, particularly in HPV (-) non-oropharyngeal HNSCC and in patients receiving radiotherapy [PMID:36261806]. A novel prognostic signature comprising six genes was developed by integrating single-cell and bulk transcriptomic datasets, based on genes upregulated in a specific cancer cell subset linked to unfavorable prognoses [PMID:36398480]. Additionally, a nine-gene signature (RNF144A, STC1, P4HA1, FMNL3, ANO1, BASP1, MME, PLEKHG2, and DKK1) associated with glycolysis and hypoxia was constructed for survival prediction and risk stratification in HNSCC [PMID:35361159]. For HPV-negative HNSCC patients receiving radiotherapy, the 172-gene signature (172GS) demonstrated the highest prognostic accuracy, outperforming the TNM system in predicting overall survival, disease-free survival, distant metastasis-free survival, and loco-regional recurrence-free survival [PMID:40252811].\n\nReferences\nPMID:35361159\nPMID:36261806\nPMID:36398480\nPMID:37098725\nPMID:40252811",
+    "cited_pmids": [
+      "37098725",
+      "36261806",
+      "36398480",
+      "35361159",
+      "40252811"
+    ],
+    "valid_pmids": [
+      "37098725",
+      "36261806",
+      "36398480",
+      "35361159",
+      "40252811"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 6.6944427490234375,
+    "error": null
+  },
+  {
+    "query_id": "Q17",
+    "category": "Transcriptomics",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "What are the prognostic gene expression signatures developed for HNSCC?",
+    "retrieved_pmids": [
+      "37098725",
+      "36261806",
+      "36398480",
+      "35361159",
+      "40252811"
+    ],
+    "response_text": "Several prognostic gene expression signatures have been developed for HNSCC. One study developed an 8-gene prognostic signature derived from essential genes, which classified patients into subgroups with distinct survival rates [PMID:37098725]. Another study developed and validated a cancer stem cell (CSC) gene expression signature, which was associated with the prognosis of HNSCC, particularly in HPV-negative cases [PMID:36261806]. A novel prognostic signature comprising six genes was developed by integrating single-cell and bulk transcriptomic datasets, identifying a specific cancer cell subset associated with unfavorable prognoses [PMID:36398480]. Additionally, a nine-gene signature (RNF144A, STC1, P4HA1, FMNL3, ANO1, BASP1, MME, PLEKHG2, and DKK1) associated with glycolysis and hypoxia was constructed for prognosis prediction and risk stratification in HNSCC [PMID:35361159]. For HPV-negative HNSCC patients, a 172-gene signature (172GS) demonstrated superior prognostic accuracy compared to the TNM staging system in predicting overall survival, disease-free survival, distant metastasis-free survival, and loco-regional recurrence-free survival [PMID:40252811].\n\nReferences:\n- PMID:37098725\n- PMID:36261806\n- PMID:36398480\n- PMID:35361159\n- PMID:40252811",
+    "cited_pmids": [
+      "37098725",
+      "36261806",
+      "36398480",
+      "35361159",
+      "40252811"
+    ],
+    "valid_pmids": [
+      "37098725",
+      "36261806",
+      "36398480",
+      "35361159",
+      "40252811"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 5.285319089889526,
+    "error": null
+  },
+  {
+    "query_id": "Q17",
+    "category": "Transcriptomics",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "What are the prognostic gene expression signatures developed for HNSCC?",
+    "retrieved_pmids": [
+      "37098725",
+      "36261806",
+      "36398480",
+      "35361159",
+      "40252811"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 1 [PMID:37098725]:** This abstract is relevant because it describes the development of a novel prognostic signature derived from essential genes in HNSCC.\n*   **Abstract 2 [PMID:36261806]:** This abstract is relevant because it details the development and validation of expression signatures of cancer stem cell (CSC) biomarker genes for HNSCC prognosis.\n*   **Abstract 3 [PMID:36398480]:** This abstract is relevant because it describes the development of a novel prognostic signature for HNSCC by integrating bulk and single-cell sequencing data.\n*   **Abstract 4 [PMID:35361159]:** This abstract is relevant because it aims to construct a new prognostic gene signature associated with glycolysis and hypoxia for HNSCC patients.\n*   **Abstract 5 [PMID:40252811]:** This abstract is relevant because it evaluates the prognostic value of various gene expression signatures, including a 172-gene signature, for HPV-negative HNSCC.\n\nSTEP 2 \u2014 SYNTHESIS:\nSeveral prognostic gene expression signatures have been developed for head and neck squamous cell carcinoma (HNSCC). One study developed an 8-gene prognostic signature derived from essential genes, which classified patients into two clusters with distinct survival rates [PMID:37098725]. Another study developed and validated expression signatures of cancer stem cell (CSC) biomarker genes, which were associated with the prognosis of HNSCC, particularly in HPV-negative cases and patients receiving radiotherapy [PMID:36261806]. A novel prognostic signature comprising six genes was developed by integrating single-cell and bulk transcriptomic datasets, identifying a specific cancer cell subset associated with unfavorable prognoses [PMID:36398480]. Additionally, a nine-gene signature (RNF144A, STC1, P4HA1, FMNL3, ANO1, BASP1, MME, PLEKHG2, and DKK1) associated with glycolysis and hypoxia was constructed for prognosis prediction and risk stratification in HNSCC [PMID:35361159]. Furthermore, a 172-gene signature (172GS) has been identified, demonstrating superior prognostic accuracy compared to the TNM staging system for predicting overall survival, disease-free survival, distant metastasis-free survival, and loco-regional recurrence-free survival in HPV-negative HNSCC patients receiving radiotherapy [PMID:40252811].\n\nSTEP 3 \u2014 REFERENCES:\nPMID:37098725\nPMID:36261806\nPMID:36398480\nPMID:35361159\nPMID:40252811",
+    "cited_pmids": [
+      "37098725",
+      "36261806",
+      "36398480",
+      "35361159",
+      "40252811"
+    ],
+    "valid_pmids": [
+      "37098725",
+      "36261806",
+      "36398480",
+      "35361159",
+      "40252811"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 6.1564624309539795,
+    "error": null
+  },
+  {
+    "query_id": "Q18",
+    "category": "Targeted therapy",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "What treatment options exist for cetuximab-resistant HNSCC?",
+    "retrieved_pmids": [
+      "37067660",
+      "41690534",
+      "40996745",
+      "35011716",
+      "38920648"
+    ],
+    "response_text": "Emerging strategies to overcome resistance to EGFR-targeted therapies, including cetuximab, in head and neck squamous cell carcinoma (HNSCC) include dual EGFR inhibition, combination with new generation targeted agents, and immunomodulation [PMID:41690534]. Specific novel agents and approaches being explored are irreversible pan-HER tyrosine kinase inhibitors, such as afatinib and dacomitinib [PMID:41690534]. Dual-target bispecific antibodies like duligotuzumab, petosemtamab, or ficerafusp alfa have shown promising preclinical and early-phase clinical activity [PMID:41690534]. Intratumoral EGFR antisense DNA (EGFR-AS) has also demonstrated synergy with cetuximab and radiotherapy in preclinical models and a phase I trial [PMID:41690534]. The evolving landscape of EGFR-targeted therapeutics also includes cetuximab-based combination regimens, as well as novel agents such as bispecific antibodies, antibody-drug conjugates, immune cell engagers, and adaptive cell therapies [PMID:40996745]. Future progress will depend on novel agents leveraging a deeper understanding of tumor biology, innovative approaches to reduce on-target off-tumor toxic effects, and improving efficacy in patients with human papillomavirus (HPV)-positive HNSCC [PMID:40996745].\n\nReferences\nPMID:41690534\nPMID:40996745",
+    "cited_pmids": [
+      "41690534",
+      "40996745"
+    ],
+    "valid_pmids": [
+      "41690534",
+      "40996745"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 12.06470251083374,
+    "error": null
+  },
+  {
+    "query_id": "Q18",
+    "category": "Targeted therapy",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "What treatment options exist for cetuximab-resistant HNSCC?",
+    "retrieved_pmids": [
+      "37067660",
+      "41690534",
+      "40996745",
+      "35011716",
+      "38920648"
+    ],
+    "response_text": "To overcome cetuximab resistance in HNSCC, emerging strategies include dual EGFR inhibition, combination with new generation targeted agents, and immunomodulation [PMID:41690534]. Specific agents being explored include irreversible pan-HER tyrosine kinase inhibitors like afatinib and dacomitinib, as well as dual-target bispecific antibodies such as duligotuzumab (EGFR/HER3), petosemtamab (EGFR/LGR5), or ficerafusp alfa (EGFR/TGF-\u03b2) [PMID:41690534]. Intratumoral EGFR antisense DNA (EGFR-AS) has also shown synergy with cetuximab and radiotherapy in preclinical models [PMID:41690534].\n\nOther approaches involve cetuximab-based combination regimens and novel agents like bispecific antibodies, antibody-drug conjugates, immune cell engagers, and adaptive cell therapies [PMID:40996745]. Future EGFR-directed therapies are likely to develop from exploring combination therapies, especially with immunotherapy, due to early evidence of synergistic effects [PMID:37067660]. Identifying molecular alterations such as mTOR and RhoA overexpression in cetuximab-resistant cells suggests new strategies to overcome anti-EGFR resistance by targeting these pathways [PMID:35011716]. Overall, efforts focus on biomarker-driven patient selection and combination strategies to enhance efficacy and durability of response [PMID:41690534].\n\nReferences:\n- PMID:37067660\n- PMID:41690534\n- PMID:40996745\n- PMID:35011716",
+    "cited_pmids": [
+      "41690534",
+      "40996745",
+      "37067660",
+      "35011716"
+    ],
+    "valid_pmids": [
+      "41690534",
+      "40996745",
+      "37067660",
+      "35011716"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 7.695513486862183,
+    "error": null
+  },
+  {
+    "query_id": "Q18",
+    "category": "Targeted therapy",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "What treatment options exist for cetuximab-resistant HNSCC?",
+    "retrieved_pmids": [
+      "37067660",
+      "41690534",
+      "40996745",
+      "35011716",
+      "38920648"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 1 (PMID:37067660):** This abstract is relevant as it discusses the modest value of EGFR-directed therapies, including cetuximab, and suggests future directions like combination therapies, especially with immunotherapy, which could be relevant for overcoming limitations such as resistance.\n*   **Abstract 2 (PMID:41690534):** This abstract is highly relevant as it directly addresses \"Overcoming resistance mechanisms\" to EGFR inhibition in HNSCC and lists specific \"novel therapeutic frontiers\" and \"emerging strategies\" to overcome resistance, including specific agents.\n*   **Abstract 3 (PMID:40996745):** This abstract is relevant because it describes the \"evolving landscape of EGFR-targeted therapeutics\" in HNSCC, including cetuximab-based combination regimens and novel agents, which are pertinent to situations where current therapies, like cetuximab, have limited benefit or encounter resistance.\n*   **Abstract 5 (PMID:38920648):** This abstract is relevant as it discusses resistance as a major issue for EGFR inhibitors and explores \"possible approaches that can be used to target different pathways to sensitize HNSCC to the existing treatments, obtain better responses to new agents, and ultimately improve the patient outcomes.\"\n\nSTEP 2 \u2014 SYNTHESIS:\nFor cetuximab-resistant HNSCC, emerging strategies aim to overcome resistance through dual EGFR inhibition, combination with new generation targeted agents, and immunomodulation [PMID:41690534]. Novel therapeutic frontiers include irreversible pan-HER tyrosine kinase inhibitors, such as afatinib and dacomitinib [PMID:41690534]. Dual-target bispecific antibodies like duligotuzumab (EGFR/HER3), petosemtamab (EGFR/LGR5), or ficerafusp alfa (EGFR/TGF-\u03b2) have shown promising preclinical and early-phase clinical activity [PMID:41690534]. Intratumoral EGFR antisense DNA (EGFR-AS) has also demonstrated synergy with cetuximab and radiotherapy in preclinical models and a phase I trial [PMID:41690534]. The evolving landscape of EGFR-targeted therapeutics also includes cetuximab-based combination regimens, as well as novel agents such as bispecific antibodies, antibody-drug conjugates, immune cell engagers, and adaptive cell therapies [PMID:40996745]. Future EGFR-directed therapies are likely to develop from exploring combination therapies, especially with immunotherapy, to allow for a more robust immune response [PMID:370676",
+    "cited_pmids": [
+      "37067660",
+      "41690534",
+      "40996745",
+      "38920648"
+    ],
+    "valid_pmids": [
+      "37067660",
+      "41690534",
+      "40996745",
+      "38920648"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 16.401804447174072,
+    "error": null
+  },
+  {
+    "query_id": "Q19",
+    "category": "Immunotherapy",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "How do immune checkpoint combinations improve HNSCC outcomes?",
+    "retrieved_pmids": [
+      "41380196",
+      "41431197",
+      "36279709",
+      "41634980",
+      "39672091"
+    ],
+    "response_text": "Different immune checkpoint inhibitor (ICI) combination strategies play a crucial role in augmenting the efficacy of immunotherapy in head and neck squamous cell carcinoma (HNSCC) [PMID:36279709]. These combined immunotherapy strategies aim to address the limitations of monotherapy in HNSCC treatment [PMID:41431197]. New approaches involving antibodies against other immunological locks, such as LAG-3, TIGIT, TIM-3, and CD134 (OX40), are being explored to overcome HNSCC immune escape [PMID:41634980]. The mechanisms underlying the synergistic effects of these combination therapies are discussed in the literature [PMID:41431197]. The integration of immunotherapy with traditional treatment modalities represents a significant advancement in the management of HNSCC [PMID:41431197].\n\nReferences\nPMID:36279709\nPMID:41431197\nPMID:41634980",
+    "cited_pmids": [
+      "36279709",
+      "41431197",
+      "41634980"
+    ],
+    "valid_pmids": [
+      "36279709",
+      "41431197",
+      "41634980"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 9.557854890823364,
+    "error": null
+  },
+  {
+    "query_id": "Q19",
+    "category": "Immunotherapy",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "How do immune checkpoint combinations improve HNSCC outcomes?",
+    "retrieved_pmids": [
+      "41380196",
+      "41431197",
+      "36279709",
+      "41634980",
+      "39672091"
+    ],
+    "response_text": "Combined immunotherapy strategies, including the use of multiple immune checkpoint inhibitors, address the limitations of monotherapy in head and neck squamous cell carcinoma (HNSCC) [PMID:41431197]. Different combination strategies play a crucial role in augmenting the efficacy of immunotherapy [PMID:36279709]. The integration of immunotherapy with traditional treatment modalities represents a significant advancement in HNSCC management [PMID:41431197]. These combinations can lead to synergistic effects, enhancing clinical outcomes [PMID:41431197].\n\nReferences:\n- PMID:41431197\n- PMID:36279709",
+    "cited_pmids": [
+      "41431197",
+      "36279709"
+    ],
+    "valid_pmids": [
+      "41431197",
+      "36279709"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 6.975239276885986,
+    "error": null
+  },
+  {
+    "query_id": "Q19",
+    "category": "Immunotherapy",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "How do immune checkpoint combinations improve HNSCC outcomes?",
+    "retrieved_pmids": [
+      "41380196",
+      "41431197",
+      "36279709",
+      "41634980",
+      "39672091"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 2 (PMID:41431197):** This abstract is highly relevant as it explicitly aims to explore combined immunotherapy strategies to address the limitations of monotherapy and states that the integration of immunotherapy with traditional treatment modalities represents a significant advancement in HNSCC management. It also mentions discussing the mechanisms underlying synergistic effects.\n*   **Abstract 3 (PMID:36279709):** This abstract is highly relevant because it directly states that different immune checkpoint inhibitors (ICI) and combination strategies play a crucial role in augmenting the efficacy of immunotherapy, and that pioneering optimal combination regimens has become a paradigm shift in HNSCC treatment.\n*   **Abstract 4 (PMID:41634980):** This abstract is relevant as it provides a specific example of an ICI combination (pembrolizumab plus or less chemotherapy) being recommended for metastatic HNSCC, implying improved outcomes. It also discusses new approaches involving antibodies against other immunological locks to overcome immune escape, which are forms of combination strategies.\n*   **Abstract 5 (PMID:39672091):** This abstract is relevant because it focuses on the combination of immunotherapy with epidermal growth factor receptor (EGFR) inhibitors, stating that this combination showed promise in treating HNSCC patients and exhibited safety.\n\nSTEP 2 \u2014 SYNTHESIS:\nImmune checkpoint combinations improve outcomes in head and neck squamous cell carcinoma (HNSCC) by augmenting the efficacy of immunotherapy and addressing the limitations of monotherapy [PMID:36279709, PMID:41431197]. The integration of immunotherapy with traditional treatment modalities, including chemotherapy, radiotherapy, and surgery, represents a significant advancement in HNSCC management [PMID:41431197]. For example, pembrolizumab combined with or without chemotherapy is recommended for metastatic HNSCC patients with CPS > 1 [PMID:41634980]. Additionally, combining immunotherapy with epidermal growth factor receptor (EGFR) inhibitors has shown promise in treating HNSCC patients and exhibited safety with acceptable adverse events [PMID:39672091]. New approaches are also exploring antibodies against other immunological locks such as LAG-3, TIGIT, TIM-3, and CD134 (OX40) to overcome HNSCC immune escape [PMID:41634980]. Pioneering optimal combination regimens utilizing novel immunotherapies has become a paradigm shift in the HNSCC treatment landscape [PMID:36279709].\n\nSTEP 3 \u2014 REFERENCES:\nPMID:36279709\nPMID:41431197\nPMID:41634980\nPMID:39672091",
+    "cited_pmids": [
+      "41431197",
+      "36279709",
+      "41634980",
+      "39672091"
+    ],
+    "valid_pmids": [
+      "41431197",
+      "36279709",
+      "41634980",
+      "39672091"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 12.012518167495728,
+    "error": null
+  },
+  {
+    "query_id": "Q20",
+    "category": "TME",
+    "expected_refusal": false,
+    "variant": "zero_shot",
+    "question": "What is the role of cancer-associated fibroblasts in HNSCC progression?",
+    "retrieved_pmids": [
+      "36916400",
+      "38279300",
+      "38826849",
+      "38851417",
+      "39300373"
+    ],
+    "response_text": "Cancer-associated fibroblasts (CAFs) are major players in tumor-stroma communication and participate in several cancer hallmarks to drive tumor progression and metastatic dissemination in head and neck squamous cell carcinoma (HNSCC) [PMID:36916400]. CAFs are key cell populations in the tumor microenvironment (TME) that play a crucial role in tumor regulation and perform essential protumorigenic functions [PMID:38279300, PMID:39300373].\n\nSpecifically, HNSCC-secreted factors promote pro-invasive properties in stromal fibroblasts and increase metalloproteinase levels, thereby generating tumor-driven pro-invasive niches that facilitate cancer cell dissemination [PMID:36916400]. CAFs promote HNSCC cell metastasis by upregulating tissue inhibitors of metalloproteinase-1 (TIMP1), which significantly inhibits the proliferation, invasion, and migration of HNSCC cells when knocked down in CAFs [PMID:38851417]. Fibroblast activation protein (FAP), which is upregulated in tumor tissues and associated with poorer survival rates in HNSCC, promotes cellular proliferation, invasion, and migration in HNSCC cell lines [PMID:38826849]. High FAP expression correlates with extracellular matrix organization, angiogenesis, and cellular motility, regulating these processes by promoting the expression of key proteins involved in epithelial-mesenchymal transition-related pathways [PMID:38826849].\n\nConversely, Secreted frizzled-related protein 1 (SFRP1), highly expressed in CAFs, can inhibit the proliferation and migration of HNSCC cells and promote apoptosis by mediating CAFs [PMID:39300373].\n\nReferences\nPMID:36916400\nPMID:38279300\nPMID:38826849\nPMID:38851417\nPMID:39300373",
+    "cited_pmids": [
+      "36916400",
+      "38279300",
+      "39300373",
+      "38851417",
+      "38826849"
+    ],
+    "valid_pmids": [
+      "36916400",
+      "38279300",
+      "39300373",
+      "38851417",
+      "38826849"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 12.53993535041809,
+    "error": null
+  },
+  {
+    "query_id": "Q20",
+    "category": "TME",
+    "expected_refusal": false,
+    "variant": "few_shot",
+    "question": "What is the role of cancer-associated fibroblasts in HNSCC progression?",
+    "retrieved_pmids": [
+      "36916400",
+      "38279300",
+      "38826849",
+      "38851417",
+      "39300373"
+    ],
+    "response_text": "Cancer-associated fibroblasts (CAFs) are key cell populations in the tumor microenvironment (TME) and play a crucial role in tumor regulation and influencing the biological behavior of tumors in head and neck squamous cell carcinoma (HNSCC) [PMID:36916400, PMID:38279300, PMID:39300373]. CAFs are major players in tumor-stroma communication, participating in several cancer hallmarks to drive tumor progression and metastatic dissemination [PMID:36916400].\n\nHNSCC-secreted factors specifically promote pro-invasive properties in stromal fibroblasts, increasing metalloproteinase levels and generating tumor-driven pro-invasive niches that facilitate cancer cell dissemination [PMID:36916400]. CAFs promote HNSCC cell metastasis [PMID:38851417]. Fibroblast activation protein (FAP) is upregulated in HNSCC tumor tissues and is associated with poorer survival rates [PMID:38826849]. FAP knockout significantly decreases cellular proliferation, invasion, and migration in HNSCC cell lines [PMID:38826849]. High FAP expression correlates with extracellular matrix organization, angiogenesis, and cellular motility, regulating these processes by promoting epithelial-mesenchymal transition-related pathways [PMID:38826849]. FAP also correlates with immune checkpoint molecules, suggesting a role in immune modulation [PMID:38826849].\n\nTissue inhibitors of metalloproteinase-1 (TIMP1) is overexpressed in metastatic primary CAFs, and knocking down TIMP1 in CAFs significantly inhibits the proliferation, invasion, and migration of HNSCC cells [PMID:38851417]. CAFs facilitate HNSCC cell metastasis by upregulating TIMP1 [PMID:38851417].\n\nCAFs exhibit heterogeneity in phenotype and functions, suggesting different CAF subtypes [PMID:38279300]. Secreted frizzled-related protein 1 (SFRP1), a hub gene related to CAFs, is highly expressed in CAFs and inhibits the proliferation and migration of tumor cells while promoting apoptosis by mediating CAFs [PMID:39300373]. The mechanism of SFRP1's action is associated with the regulation of immune cells [PMID:39300373].\n\nReferences:\n- PMID:36916400\n- PMID:38279300\n- PMID:38826849\n- PMID:38851417\n- PMID:39300373",
+    "cited_pmids": [
+      "36916400",
+      "38279300",
+      "39300373",
+      "38851417",
+      "38826849"
+    ],
+    "valid_pmids": [
+      "36916400",
+      "38279300",
+      "39300373",
+      "38851417",
+      "38826849"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 10.994409799575806,
+    "error": null
+  },
+  {
+    "query_id": "Q20",
+    "category": "TME",
+    "expected_refusal": false,
+    "variant": "chain_of_thought",
+    "question": "What is the role of cancer-associated fibroblasts in HNSCC progression?",
+    "retrieved_pmids": [
+      "36916400",
+      "38279300",
+      "38826849",
+      "38851417",
+      "39300373"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\n*   **Abstract 1 (PMID:36916400):** This abstract is relevant because it demonstrates that HNSCC-secreted factors promote pro-invasive properties in stromal fibroblasts, increasing metalloproteinase levels and facilitating cancer cell dissemination, thus driving tumor progression and metastatic dissemination.\n*   **Abstract 2 (PMID:38279300):** This abstract is relevant as it states that cancer-associated fibroblasts (CAFs) are key players in the tumor microenvironment (TME) and perform essential protumorigenic functions, influencing the biological behavior of tumors.\n*   **Abstract 3 (PMID:38826849):** This abstract is relevant because it identifies Fibroblast Activation Protein (FAP), a CAF-related marker, as being upregulated in HNSCC tumor tissues and associated with poorer survival rates, promoting cellular proliferation, invasion, migration, extracellular matrix organization, angiogenesis, and cellular motility.\n*   **Abstract 4 (PMID:38851417):** This abstract is relevant as it explicitly states that CAFs promote HNSCC metastasis by upregulating tissue inhibitors of metalloproteinase-1 (TIMP1), which in turn facilitates the proliferation, invasion, and migration of HNSCC cells.\n*   **Abstract 5 (PMID:39300373):** This abstract is relevant because it describes a suppressive role for CAFs, specifically through Secreted frizzled-related protein 1 (SFRP1), which inhibits the proliferation and migration of HNSCC cells and promotes apoptosis.\n\nSTEP 2 \u2014 SYNTHESIS:\nCancer-associated fibroblasts (CAFs) are major players in the tumor microenvironment (TME) and perform essential protumorigenic functions in head and neck squamous cell carcinoma (HNSCC) [PMID:38279300]. CAFs are known to influence the biological behavior of tumors [PMID:38279300]. HNSCC-secreted factors promote pro-invasive properties in stromal fibroblasts, increasing metalloproteinase levels, and generating tumor-driven pro-invasive niches that facilitate cancer cell dissemination [PMID:36916400]. CAFs have been shown to promote the metastasis of HNSCC [PMID:38851417]. Specifically, CAFs facilitate HNSCC cell metastasis by upregulating tissue inhibitors of metalloproteinase-1 (TIMP1), and knocking down TIMP1 in CAFs can significantly inhibit the proliferation, invasion, and migration of HNSCC cells [PMID:38851417]. Fibroblast activation protein (FAP), which is upregulated in HNSCC tumor tissues, is associated with poorer survival rates and plays a pivotal role in HNSCC pathogenesis [PMID:38826849]. FAP knockout leads to a significant decrease in cellular proliferation, invasion, and migration in HNSCC cell lines [PMID:38826849]. High FAP expression correlates with extracellular matrix organization, angiogenesis, and cellular motility, and FAP regulates these processes by promoting the expression of key proteins involved in epithelial-mesenchymal transition-related pathways [PMID:38826849]. Conversely, CAFs can also play a suppressive role in HNSCC progression; Secreted frizzled-related protein 1 (SFRP1), highly expressed in CAFs, inhibits the proliferation and migration of HNSCC cells and promotes apoptosis by mediating CAFs [PMID:39300373].\n\nSTEP 3 \u2014 REFERENCES:\nPMID:36916400\nPMID:38279300\nPMID:38826849\nPMID:38851417\nPMID:39300373",
+    "cited_pmids": [
+      "36916400",
+      "38279300",
+      "38826849",
+      "38851417",
+      "39300373"
+    ],
+    "valid_pmids": [
+      "36916400",
+      "38279300",
+      "38826849",
+      "38851417",
+      "39300373"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 13.770548105239868,
+    "error": null
+  },
+  {
+    "query_id": "Q21",
+    "category": "out_of_scope",
+    "expected_refusal": true,
+    "variant": "zero_shot",
+    "question": "What is the role of BRCA1 mutations in breast cancer treatment?",
+    "retrieved_pmids": [
+      "35409179",
+      "37501500",
+      "39032644",
+      "40333905",
+      "37819945"
+    ],
+    "response_text": "Information not available in the knowledge base.",
+    "cited_pmids": [],
+    "valid_pmids": [],
+    "invalid_pmids": [],
+    "valid_ratio": 0.0,
+    "is_clean": false,
+    "latency_seconds": 3.1219940185546875,
+    "error": null
+  },
+  {
+    "query_id": "Q21",
+    "category": "out_of_scope",
+    "expected_refusal": true,
+    "variant": "few_shot",
+    "question": "What is the role of BRCA1 mutations in breast cancer treatment?",
+    "retrieved_pmids": [
+      "35409179",
+      "37501500",
+      "39032644",
+      "40333905",
+      "37819945"
+    ],
+    "response_text": "Information not available in the knowledge base.",
+    "cited_pmids": [],
+    "valid_pmids": [],
+    "invalid_pmids": [],
+    "valid_ratio": 0.0,
+    "is_clean": false,
+    "latency_seconds": 2.966202974319458,
+    "error": null
+  },
+  {
+    "query_id": "Q21",
+    "category": "out_of_scope",
+    "expected_refusal": true,
+    "variant": "chain_of_thought",
+    "question": "What is the role of BRCA1 mutations in breast cancer treatment?",
+    "retrieved_pmids": [
+      "35409179",
+      "37501500",
+      "39032644",
+      "40333905",
+      "37819945"
+    ],
+    "response_text": "Information not available in the knowledge base.",
+    "cited_pmids": [],
+    "valid_pmids": [],
+    "invalid_pmids": [],
+    "valid_ratio": 0.0,
+    "is_clean": false,
+    "latency_seconds": 4.713465452194214,
+    "error": null
+  },
+  {
+    "query_id": "Q22",
+    "category": "out_of_scope",
+    "expected_refusal": true,
+    "variant": "zero_shot",
+    "question": "How is type 2 diabetes managed with metformin?",
+    "retrieved_pmids": [
+      "36738487",
+      "36328378",
+      "39039738",
+      "39463147",
+      "37132760"
+    ],
+    "response_text": "Information not available in the knowledge base.",
+    "cited_pmids": [],
+    "valid_pmids": [],
+    "invalid_pmids": [],
+    "valid_ratio": 0.0,
+    "is_clean": false,
+    "latency_seconds": 3.121145248413086,
+    "error": null
+  },
+  {
+    "query_id": "Q22",
+    "category": "out_of_scope",
+    "expected_refusal": true,
+    "variant": "few_shot",
+    "question": "How is type 2 diabetes managed with metformin?",
+    "retrieved_pmids": [
+      "36738487",
+      "36328378",
+      "39039738",
+      "39463147",
+      "37132760"
+    ],
+    "response_text": "Information not available in the knowledge base.",
+    "cited_pmids": [],
+    "valid_pmids": [],
+    "invalid_pmids": [],
+    "valid_ratio": 0.0,
+    "is_clean": false,
+    "latency_seconds": 2.6201651096343994,
+    "error": null
+  },
+  {
+    "query_id": "Q22",
+    "category": "out_of_scope",
+    "expected_refusal": true,
+    "variant": "chain_of_thought",
+    "question": "How is type 2 diabetes managed with metformin?",
+    "retrieved_pmids": [
+      "36738487",
+      "36328378",
+      "39039738",
+      "39463147",
+      "37132760"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\nNone of the provided abstracts are relevant to the question of how type 2 diabetes is managed with metformin. All abstracts focus on the role of metformin in head and neck squamous cell carcinoma (HNSCC) or oral squamous cell carcinoma (OSCC), investigating its effects on cancer cells, immune responses, chemoresistance, or mechanisms of resistance to metformin in the context of cancer.\n\nSTEP 2 \u2014 SYNTHESIS:\nInformation not available in the knowledge base.\n\nSTEP 3 \u2014 REFERENCES:",
+    "cited_pmids": [],
+    "valid_pmids": [],
+    "invalid_pmids": [],
+    "valid_ratio": 0.0,
+    "is_clean": false,
+    "latency_seconds": 5.160524606704712,
+    "error": null
+  },
+  {
+    "query_id": "Q23",
+    "category": "out_of_scope",
+    "expected_refusal": true,
+    "variant": "zero_shot",
+    "question": "What are the latest developments in Alzheimer's disease drug discovery?",
+    "retrieved_pmids": [
+      "37859283",
+      "39608621",
+      "35195839",
+      "38522008",
+      "38616696"
+    ],
+    "response_text": "Information not available in the knowledge base.",
+    "cited_pmids": [],
+    "valid_pmids": [],
+    "invalid_pmids": [],
+    "valid_ratio": 0.0,
+    "is_clean": false,
+    "latency_seconds": 3.058567762374878,
+    "error": null
+  },
+  {
+    "query_id": "Q23",
+    "category": "out_of_scope",
+    "expected_refusal": true,
+    "variant": "few_shot",
+    "question": "What are the latest developments in Alzheimer's disease drug discovery?",
+    "retrieved_pmids": [
+      "37859283",
+      "39608621",
+      "35195839",
+      "38522008",
+      "38616696"
+    ],
+    "response_text": "Information not available in the knowledge base.",
+    "cited_pmids": [],
+    "valid_pmids": [],
+    "invalid_pmids": [],
+    "valid_ratio": 0.0,
+    "is_clean": false,
+    "latency_seconds": 2.439194440841675,
+    "error": null
+  },
+  {
+    "query_id": "Q23",
+    "category": "out_of_scope",
+    "expected_refusal": true,
+    "variant": "chain_of_thought",
+    "question": "What are the latest developments in Alzheimer's disease drug discovery?",
+    "retrieved_pmids": [
+      "37859283",
+      "39608621",
+      "35195839",
+      "38522008",
+      "38616696"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\nNone of the provided abstracts are relevant to the question about Alzheimer's disease drug discovery. All abstracts focus exclusively on head and neck squamous cell carcinoma (HNSCC).\n\nSTEP 2 \u2014 SYNTHESIS:\nInformation not available in the knowledge base.\n\nSTEP 3 \u2014 REFERENCES:",
+    "cited_pmids": [],
+    "valid_pmids": [],
+    "invalid_pmids": [],
+    "valid_ratio": 0.0,
+    "is_clean": false,
+    "latency_seconds": 4.755200386047363,
+    "error": null
+  },
+  {
+    "query_id": "Q24",
+    "category": "out_of_scope",
+    "expected_refusal": true,
+    "variant": "zero_shot",
+    "question": "How does CAR-T cell therapy work for leukemia?",
+    "retrieved_pmids": [
+      "35468475",
+      "40169956",
+      "38077321",
+      "39780232",
+      "38474377"
+    ],
+    "response_text": "Information not available in the knowledge base.",
+    "cited_pmids": [],
+    "valid_pmids": [],
+    "invalid_pmids": [],
+    "valid_ratio": 0.0,
+    "is_clean": false,
+    "latency_seconds": 2.8903350830078125,
+    "error": null
+  },
+  {
+    "query_id": "Q24",
+    "category": "out_of_scope",
+    "expected_refusal": true,
+    "variant": "few_shot",
+    "question": "How does CAR-T cell therapy work for leukemia?",
+    "retrieved_pmids": [
+      "35468475",
+      "40169956",
+      "38077321",
+      "39780232",
+      "38474377"
+    ],
+    "response_text": "Information not available in the knowledge base.",
+    "cited_pmids": [],
+    "valid_pmids": [],
+    "invalid_pmids": [],
+    "valid_ratio": 0.0,
+    "is_clean": false,
+    "latency_seconds": 3.3208651542663574,
+    "error": null
+  },
+  {
+    "query_id": "Q24",
+    "category": "out_of_scope",
+    "expected_refusal": true,
+    "variant": "chain_of_thought",
+    "question": "How does CAR-T cell therapy work for leukemia?",
+    "retrieved_pmids": [
+      "35468475",
+      "40169956",
+      "38077321",
+      "39780232",
+      "38474377"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\nNone of the provided abstracts are relevant to the question of how CAR-T cell therapy works for leukemia. Abstract 1 discusses CAR T-cell therapy for head and neck squamous cell carcinoma (HNSCC) [PMID:35468475]. Abstract 2 discusses CAR-NK cell therapy for oral tongue squamous cell carcinoma (OTSCC) [PMID:40169956]. The other abstracts discuss different aspects of HNSCC immunology or treatment, but none mention leukemia or the specific mechanism of CAR-T cell therapy in that context.\n\nSTEP 2 \u2014 SYNTHESIS:\nInformation not available in the knowledge base.\n\nSTEP 3 \u2014 REFERENCES:\nNone.",
+    "cited_pmids": [
+      "35468475",
+      "40169956"
+    ],
+    "valid_pmids": [
+      "35468475",
+      "40169956"
+    ],
+    "invalid_pmids": [],
+    "valid_ratio": 1.0,
+    "is_clean": true,
+    "latency_seconds": 4.020946025848389,
+    "error": null
+  },
+  {
+    "query_id": "Q25",
+    "category": "out_of_scope",
+    "expected_refusal": true,
+    "variant": "zero_shot",
+    "question": "What is the recommended treatment for hypertension in elderly patients?",
+    "retrieved_pmids": [
+      "37067660",
+      "40996745",
+      "40052634",
+      "37339176",
+      "41690534"
+    ],
+    "response_text": "Information not available in the knowledge base.",
+    "cited_pmids": [],
+    "valid_pmids": [],
+    "invalid_pmids": [],
+    "valid_ratio": 0.0,
+    "is_clean": false,
+    "latency_seconds": 3.3133442401885986,
+    "error": null
+  },
+  {
+    "query_id": "Q25",
+    "category": "out_of_scope",
+    "expected_refusal": true,
+    "variant": "few_shot",
+    "question": "What is the recommended treatment for hypertension in elderly patients?",
+    "retrieved_pmids": [
+      "37067660",
+      "40996745",
+      "40052634",
+      "37339176",
+      "41690534"
+    ],
+    "response_text": "Information not available in the knowledge base.",
+    "cited_pmids": [],
+    "valid_pmids": [],
+    "invalid_pmids": [],
+    "valid_ratio": 0.0,
+    "is_clean": false,
+    "latency_seconds": 4.075466632843018,
+    "error": null
+  },
+  {
+    "query_id": "Q25",
+    "category": "out_of_scope",
+    "expected_refusal": true,
+    "variant": "chain_of_thought",
+    "question": "What is the recommended treatment for hypertension in elderly patients?",
+    "retrieved_pmids": [
+      "37067660",
+      "40996745",
+      "40052634",
+      "37339176",
+      "41690534"
+    ],
+    "response_text": "STEP 1 \u2014 RELEVANCE ANALYSIS:\nNone of the provided abstracts are relevant to the question regarding the recommended treatment for hypertension in elderly patients. The abstracts focus on head and neck squamous cell carcinoma (HNSCC) treatments, including EGFR-directed therapies, statin use in conjunction with immune checkpoint blockade, and combination therapies for specific molecular subsets of HNSCC. They do not contain information about hypertension or its management.\n\nSTEP 2 \u2014 SYNTHESIS:\nInformation not available in the knowledge base.\n\nSTEP 3 \u2014 REFERENCES:\nNone.",
+    "cited_pmids": [],
+    "valid_pmids": [],
+    "invalid_pmids": [],
+    "valid_ratio": 0.0,
+    "is_clean": false,
+    "latency_seconds": 4.272303819656372,
+    "error": null
+  }
+]
