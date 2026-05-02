@@ -2,9 +2,9 @@
 
 A citation-aware retrieval-augmented generation system for head and neck squamous cell carcinoma (HNSCC) research, grounded in PubMed literature.
 
-**Live demo:** [hnscc-rag.streamlit.app](https://YOUR_STREAMLIT_URL)  
-**Author:** YOUR_NAME  
-**Repository:** [github.com/YOUR_GITHUB_USERNAME/hnscc-rag](https://github.com/YOUR_GITHUB_USERNAME/hnscc-rag)
+**Live demo:** [hnscc-rag.streamlit.app](https://hnscc-rag.streamlit.app)  
+**Author:** Dzakwanil Hakim
+**Repository:** [github.com/dzakwanilhakim/hnscc-rag](https://github.com/YOUR_GITHUB_USERNAME/hnscc-rag)
 
 ---
 
