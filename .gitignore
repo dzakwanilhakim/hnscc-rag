@@ -29,9 +29,12 @@ env/
 *.ipynb_checkpoints
 
 # Project data
-data/chroma_db/
-data/*.json
-data/raw/
+# Data folder excluded by default
+data/*
+# But include the ChromaDB and abstracts for deployment
+!data/chroma_db/
+!data/chroma_db/**
+!data/hnscc_abstracts.json
 
 # Logs
 *.log
@@ -44,4 +47,4 @@ logs/
 Thumbs.db
 
 # zip
-*.zip
+*.zip.streamlit/secrets.toml

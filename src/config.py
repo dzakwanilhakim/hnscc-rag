@@ -50,3 +50,27 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 # Selected from Phase 5 evaluation (composite score 0.928)
 DEFAULT_PROMPT_VARIANT = "few_shot"
+
+# ============================================================
+# API Keys (works for both local .env and Streamlit Cloud secrets)
+# ============================================================
+
+def _get_secret(key: str, default: str = "") -> str:
+    """
+    Try Streamlit secrets first (production), fall back to env (local dev).
+    """
+    # Try Streamlit secrets if running under Streamlit
+    try:
+        import streamlit as st
+        if key in st.secrets:
+            return st.secrets[key]
+    except (ImportError, FileNotFoundError, Exception):
+        pass
+    # Fall back to environment variable
+    return os.getenv(key, default)
+
+
+GOOGLE_API_KEY = _get_secret("GOOGLE_API_KEY")
+NCBI_API_KEY = _get_secret("NCBI_API_KEY")
+NCBI_EMAIL = _get_secret("NCBI_EMAIL")
+LLM_MODEL = _get_secret("LLM_MODEL", "gemini-2.5-flash")
