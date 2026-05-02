@@ -4,7 +4,7 @@ A citation-aware retrieval-augmented generation system for head and neck squamou
 
 **Live demo:** [hnscc-rag.streamlit.app](https://hnscc-rag.streamlit.app)  
 **Author:** Dzakwanil Hakim  
-**Repository:** [github.com/dzakwanilhakim/hnscc-rag]  (https://github.com/YOUR_GITHUB_USERNAME/hnscc-rag)
+**Repository:** [github.com/dzakwanilhakim/hnscc-rag]  (https://github.com/dzakwanilhakim/hnscc-rag)
 
 ---
 
@@ -246,7 +246,7 @@ hnscc-rag/
 
 ### Prerequisites
 
-- Python 3.10 or 3.11
+- Python 3.11
 - Conda (Miniconda recommended)
 - Google AI Studio API key
 - NCBI API key (free, from ncbi.nlm.nih.gov)
@@ -254,10 +254,10 @@ hnscc-rag/
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/hnscc-rag.git
+git clone https://github.com/dzakwanilhakim/hnscc-rag.git
 cd hnscc-rag
 
-conda create -n hnscc-rag python=3.10 -y
+conda create -n hnscc-rag python=3.11 -y
 conda activate hnscc-rag
 
 pip install -r requirements.txt
