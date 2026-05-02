@@ -111,25 +111,28 @@ example_queries = [
     "What are common somatic mutations in HNSCC?",
 ]
 
-st.markdown("### 💬 IS THAT REAL CHAT?!?!?! (Ask a research question)\n")
+st.markdown("### 💬 IS THAT REAL CHAT?!?!?! (Ask a research question about HNSCC)\n")
 st.markdown("**at the left panel, you can configure the number of source of citation (default: 5) and the promp strategy (best: few_shot)")
 
 # Quick-pick examples
+# Initialize session state for the query text
+if "query_text" not in st.session_state:
+    st.session_state.query_text = ""
+
+# Example query buttons — clicking sets the query text in session state
 cols = st.columns(len(example_queries))
-selected_example = None
 for i, ex in enumerate(example_queries):
     with cols[i]:
         if st.button(f"📌 {ex[:35]}...", key=f"example_{i}", use_container_width=True):
-            selected_example = ex
+            st.session_state.query_text = ex
 
-# Query input
+# Text area bound to session state via key
 query = st.text_area(
     "Your question:",
-    value=selected_example if selected_example else "",
     height=100,
     placeholder="e.g., What is the role of MGMT methylation in HNSCC prognosis?",
+    key="query_text",
 )
-
 submit = st.button("🔍 Search literature", type="primary", use_container_width=True)
 
 
