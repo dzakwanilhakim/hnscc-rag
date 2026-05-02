@@ -51,7 +51,7 @@ def load_chain():
 
 st.title(" HNSCC-RAG")
 st.markdown(
-    "**A citation-aware research assistant for head and neck squamous cell carcinoma, focused in clinical, therapy, omics, and pathways.**  \n"
+    "**A citation-aware research assistant for head and neck squamous cell carcinoma, focused in clinical, therapy, omics, and pathways. (May 2026)**  \n"
     "_Built with LangChain, ChromaDB, S-PubMedBert embeddings, and Gemini._  \n"
     "github: https://github.com/dzakwanilhakim/hnscc-rag/  "
 )
